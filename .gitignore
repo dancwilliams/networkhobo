@@ -1,2 +1,5 @@
+# Hugo default output directory
+/public
+
 .DS_Store
 themes/.DS_Store
