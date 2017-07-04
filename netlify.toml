@@ -1,10 +1,11 @@
 [build]
-  command = "hugo version ; hugo"
+  HUGO_VERSION = "0.24"
+  command = "hugo"
   publish = "public"
 
 [context.deploy-preview]
   HUGO_VERSION = "0.24"
-  command = "hugo version ; hugo --buildDrafts --buildFuture --baseURL /"
+  command = "hugo --buildDrafts --buildFuture --baseURL /"
 
 [context.production.environment]
   HUGO_VERSION = "0.24"
