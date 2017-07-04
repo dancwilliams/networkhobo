@@ -1,4 +1,4 @@
-baseurl = "https://username.github.io"
+baseurl = "/"
 DefaultContentLanguage = "en"
 #DefaultContentLanguage = "ja"
 title = "Network Hobo"
@@ -8,6 +8,9 @@ pygmentsUseClasses = true
 pygmentCodeFences = true
 #disqusShortname = "XXX"
 #googleAnalytics = "XXX"
+
+#permalinks:
+#  post: /:year/:month/:title/
 
 [Params]
   subtitle = "Thumbin' my way down the information superhighway..."
