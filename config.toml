@@ -6,7 +6,7 @@ theme = "beautifulhugo"
 metaDataFormat = "yaml"
 pygmentsUseClasses = true
 pygmentCodeFences = true
-#disqusShortname = "XXX"
+disqusShortname = "network-hobo"
 #googleAnalytics = "XXX"
 
 [permalinks]
