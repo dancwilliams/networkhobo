@@ -9,6 +9,9 @@ pygmentCodeFences = true
 #disqusShortname = "XXX"
 #googleAnalytics = "XXX"
 
+#permalinks:
+#  post: /:year/:month/:title/
+
 [Params]
   subtitle = "Thumbin' my way down the information superhighway..."
   logo = "img/IMG_6236.jpg"
