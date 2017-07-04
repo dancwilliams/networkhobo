@@ -9,8 +9,8 @@ pygmentCodeFences = true
 #disqusShortname = "XXX"
 #googleAnalytics = "XXX"
 
-#permalinks:
-#  post: /:year/:month/:title/
+[permalinks]
+  post = "/:year/:month/:day/:title/"
 
 [Params]
   subtitle = "Thumbin' my way down the information superhighway..."
