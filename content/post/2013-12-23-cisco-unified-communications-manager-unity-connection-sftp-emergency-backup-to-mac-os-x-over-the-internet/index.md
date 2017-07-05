@@ -47,7 +47,7 @@ Once this was configured I moved on to configuring my laptop to accept SSH conne
 
 Once SSH was configured on the laptop it was time to configure a backup device on the phone system and perform a manual backup. Below are the screenshots: First I accessed the Disaster Recovery System > Backup > Backup Device and configured a new device.  You would replace the X.X.X.X with you Internet/Public IP address that you got off of your Airport Express.  Point the path to where you would like the backup files to be saved (I created a folder on my desktop to collect the files).  Then use your laptop username and password.  When you save the backup device it will test connectivity before declaring a successful save.
 
-[![Screenshot 2013-12-23 08.49.13](h/post/2013-12-23-cisco-unified-communications-manager-unity-connection-sftp-emergency-backup-to-mac-os-x-over-the-internet/screenshot-2013-12-23-08-49-13.png?w=300)](/post/2013-12-23-cisco-unified-communications-manager-unity-connection-sftp-emergency-backup-to-mac-os-x-over-the-internet/screenshot-2013-12-23-08-49-13.png)
+[![Screenshot 2013-12-23 08.49.13](/post/2013-12-23-cisco-unified-communications-manager-unity-connection-sftp-emergency-backup-to-mac-os-x-over-the-internet/screenshot-2013-12-23-08-49-13.png?w=300)](/post/2013-12-23-cisco-unified-communications-manager-unity-connection-sftp-emergency-backup-to-mac-os-x-over-the-internet/screenshot-2013-12-23-08-49-13.png)
 
 Next you will go into Backup > Manual and start a manual backup of all available services.  You will select the services by checking the box beside each one.  In Unity Connection you may receive popups concerning dependencies.  This will be ok since you will be selecting all services to back up.
 
