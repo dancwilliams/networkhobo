@@ -17,7 +17,7 @@ comments:
   #
   # Name of the branch being used. Must match the one sent in the URL of the
   # request.
-  branch: "staticman_test"
+  branch: "master"
 
   # List of fields to be populated automatically by Staticman and included in
   # the data file. Keys are the name of the field. The value can be an object
@@ -78,7 +78,7 @@ comments:
 posts:
   allowedFields: ["title", "body"]
   allowedOrigins: ["localhost", "networkhobo.com", "networkhobo.netlify.com"]
-  branch: "staticman_test"
+  branch: "master"
   generatedFields:
     date:
       type: date
