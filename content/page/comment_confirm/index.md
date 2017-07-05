@@ -1,3 +1,9 @@
+---
+title: "Thank You!"
+date: 2017-07-05
+draft: false
+---
+
 <div id="comment-submitted" class="dialog">
 <h3>Thank you</h3>
   <p>Your comment has been submitted and will be published once it has been approved.</p>
