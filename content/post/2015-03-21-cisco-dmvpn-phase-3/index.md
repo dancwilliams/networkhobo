@@ -1,7 +1,7 @@
 ---
 title: "Cisco DMVPN Phase 3"
 date: 2015-03-21
-draft: true
+draft: false
 url: "2015/03/21/cisco-dmvpn-phase-3"
 tags: [ "remote access", "Cisco", "routing", "security", "vrf" ]
 categories: [ "remote access", "routing", "security", "data center" ]

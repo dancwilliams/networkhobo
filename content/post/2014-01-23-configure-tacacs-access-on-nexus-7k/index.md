@@ -1,7 +1,7 @@
 ---
 title: "Configure TACACS+ Access on Nexus 7K"
 date: 2014-01-23
-draft: true
+draft: false
 url: "2014/01/23/cconfigure-tacacs-access-on-nexus-7k"
 tags: [ "7K", "data center", "Nexus", "security", "TACACS+" ]
 ---

@@ -1,7 +1,7 @@
 ---
 title: "GoDaddy: Delegate Subdomain to Different Nameserver"
 date: 2014-07-22
-draft: true
+draft: false
 url: "2014/07/22/godaddy-delegate-subdomain-to-different-nameserver"
 ---
 

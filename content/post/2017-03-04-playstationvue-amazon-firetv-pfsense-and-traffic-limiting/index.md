@@ -1,7 +1,7 @@
 ---
 title: "PlaystationVUE, Amazon FireTV, pfSense, and Traffic Limiting"
 date: 2017-03-04
-draft: true
+draft: false
 url: "2017/03/04/playstationvue-amazon-firetv-pfsense-and-traffic-limiting"
 tags: [ "security", "Amazon FireTV", "pfSense", "Playstation Vue", "QoS" ]
 categories: [ "security" ]

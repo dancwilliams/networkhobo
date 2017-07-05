@@ -1,7 +1,7 @@
 ---
 title: "Cisco IOS SSL VPN with AD/RADIUS Authentication"
 date: 2014-12-06
-draft: true
+draft: false
 url: "2014/12/06/cisco-ios-ssl-vpn-with-adradius-authentication"
 tags: [ "remote access", "Cisco", "routing", "security" ]
 categories: [ "remote access", "routing", "security" ]

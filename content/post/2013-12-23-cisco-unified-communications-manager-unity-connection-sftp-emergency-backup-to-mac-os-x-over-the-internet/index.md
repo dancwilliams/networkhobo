@@ -1,7 +1,7 @@
 ---
 title: "Cisco Unified Communications Manager & Unity Connection SFTP Emergency Backup to Mac OS X over the Internet"
 date: 2013-12-23
-draft: true
+draft: false
 url: "2013/12/23/cisco-unified-communications-manager-unity-connection-sftp-emergency-backup-to-mac-os-x-over-the-internet"
 tags: [ "callmanager", "cisco", "Cisco Unified Communications Manager", "backups", "Unity Connection", "voice", "voip" ]
 categories: [ "voice" ]

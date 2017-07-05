@@ -1,7 +1,7 @@
 ---
 title: "Cisco VIRL, pfSense, and Routed Management Networks"
 date: 2017-06-15
-draft: true
+draft: false
 url: "cisco-virl-pfsense-and-routed-management-networks-7239d664d050"
 tags: [ "Cisco", "VIRL", "management", "VMWare", "ESXi" ]
 categories: [ "Cisco VIRL" ]
