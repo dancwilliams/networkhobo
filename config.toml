@@ -58,7 +58,7 @@ googleAnalytics = "UA-101026183-1"
 
 [[menu.main]]
     name = "About"
-    url = "page/about/"
+    url = "about"
     weight = 2
 
 #[[menu.main]]
