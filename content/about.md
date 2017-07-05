@@ -2,6 +2,7 @@
 title: "About"
 date: 2017-07-04
 draft: false
+staticman: false
 ---
 
 # **Hi! I Am Dan!**
