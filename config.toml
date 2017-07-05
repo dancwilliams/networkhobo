@@ -87,3 +87,8 @@ googleAnalytics = "UA-101026183-1"
     name = "Categories"
     url = "categories"
     weight = 4
+
+[[menu.main]]
+    name = "Roadmap"
+    url = "roadmap"
+    weight = 5
