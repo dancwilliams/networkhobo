@@ -1,7 +1,7 @@
 ---
 title: "Cisco VRF/MP-BGP Router On A Stick With Nat"
 date: 2013-12-18
-draft: true
+draft: false
 url: "2013/12/18/cisco-vrfmp-bgp-router-on-a-stick-with-nat"
 tags: [ "bgp", "mpbgp", "routing", "switching", "vrf" ]
 categories: [ "projects", "routing" ]

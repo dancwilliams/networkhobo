@@ -1,7 +1,7 @@
 ---
 title: "Cisco Translation Rules, CDRs, and Unity Connection"
 date: 2013-12-19
-draft: true
+draft: false
 url: "2013/12/19/cisco-translation-rules-cdrs-and-unity-connection"
 tags: [ "callmanager", "cisco", "Cisco Unified Communications Manager", "troubleshooting", "Unity Connection", "voice", "voip" ]
 categories: [ "voice" ]

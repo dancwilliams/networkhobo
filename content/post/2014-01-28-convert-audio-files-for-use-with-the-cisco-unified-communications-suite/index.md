@@ -1,7 +1,7 @@
 ---
 title: "Convert Audio Files for use with the Cisco Unified Communications Suite"
 date: 2014-01-28
-draft: true
+draft: false
 url: "2014/01/28/convert-audio-files-for-use-with-the-cisco-unified-communications-suite"
 tags: [ "callmanager", "cisco", "Cisco Unified Communications Manager", "Unity Connection", "voice", "voip", "Cisco UC", "Contact Center Express", "Unified Communications" ]
 categories: [ "voice" ]
