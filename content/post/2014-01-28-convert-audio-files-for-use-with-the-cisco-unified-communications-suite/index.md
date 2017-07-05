@@ -21,6 +21,8 @@ I like to use the [Switch application by NCH Software](http://www.nch.com.au/swi
 
 [![Conversion Video](http://img.youtube.com/vi/liPCTVBRWT4/0.jpg)](http://www.youtube.com/watch?v=liPCTVBRWT4)
 
+{{% youtube liPCTVBRWT4 %}}
+
 Also here is a quick screen shot of the settings for the WAV conversion so it will be in the format Cisco likes! I know we have all run into this especially with things like music on hold… 
 
 [![Audio_Conversion](/post/2014-01-28-convert-audio-files-for-use-with-the-cisco-unified-communications-suite/audio_canversion.png?w=300)](/post/2014-01-28-convert-audio-files-for-use-with-the-cisco-unified-communications-suite/audio_canversion.png)
