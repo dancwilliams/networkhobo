@@ -98,5 +98,5 @@ I would like to say a quick thank you to the following references while I was wo
 *   [Cisco Nexus 7K TACACS+ Example](https://supportforums.cisco.com/docs/DOC-16435)
 
 
-[^1]: Terminal Access Controller Access-Control System Plus [ ↩](1 "return to article")
-[^2]: Virtual Device Context [ ↩](2 "return to article")
+[^1]: Terminal Access Controller Access-Control System Plus
+[^2]: Virtual Device Context
