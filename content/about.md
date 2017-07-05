@@ -1,11 +1,9 @@
 ---
-title: "About"
+title: "Hi!  I'm Dan!"
 date: 2017-07-04
 draft: false
 staticman: false
 ---
-
-# **Hi! I Am Dan!**
 
 ![Its Me!](/img/profile.jpg)
 
