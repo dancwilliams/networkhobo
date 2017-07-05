@@ -75,23 +75,3 @@ comments:
   transforms:
     email: md5
 
-posts:
-  allowedFields: ["title", "body"]
-  allowedOrigins: ["localhost", "networkhobo.com", "networkhobo.netlify.com"]
-  branch: "staticman_test"
-  generatedFields:
-    date:
-      type: date
-    slug:
-      type: slugify
-      options:
-        field: title
-    tags: ["user-generated"]
-  format: "frontmatter"
-  moderation: true
-  name: "Network Hobo"
-  path: "content/post"
-  filename: "{fields.slug}"
-  requiredFields: ["title", "body"]
-  transforms:
-    body: "frontmatterContent"
