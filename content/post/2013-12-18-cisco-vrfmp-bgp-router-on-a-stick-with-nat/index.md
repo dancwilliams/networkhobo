@@ -3,6 +3,8 @@ title: "Cisco VRF/MP-BGP Router On A Stick With Nat"
 date: 2013-12-18
 draft: true
 url: "2013/12/18/cisco-vrfmp-bgp-router-on-a-stick-with-nat"
+tags: [ "bgp", "mpbgp", "routing", "switching", "vrf" ]
+categories: [ "projects", "routing" ]
 ---
 
 # The Request:
@@ -32,12 +34,12 @@ Here is how we broke down the VLANs/VRFs for the PoC[^3] lab:
 
 VRF Name | Route Distinguisher | VLAN ID | IP Address      | Description
 -------- | ------------------- | ------- | --------------- | -----------
-WAN	     | 99                  | N/A     | 10.20.30.253/24 | Internet Access
-red      | 1                   | 1       | 192.168.1.1/24  | Tenant 1
-blue     | 2                   | 2       | 192.168.2.1/24  | Tenant 2
-green    | 3                   | 3       | 192.168.1.1/24  | Tenant 3 - Dup Red IP
-voice    | 111                 | 111     | 10.1.1.1/24     | Shared Voice
-N/A      | N/A                 | 999     | 10.9.9.1/24     | Management
+WAN	     | 99                  | N/A     | ```10.20.30.253/24``` | Internet Access
+red      | 1                   | 1       | ```192.168.1.1/24```  | Tenant 1
+blue     | 2                   | 2       | ```192.168.2.1/24```  | Tenant 2
+green    | 3                   | 3       | ```192.168.1.1/24```  | Tenant 3 - Dup Red IP
+voice    | 111                 | 111     | ```10.1.1.1/24```     | Shared Voice
+N/A      | N/A                 | 999     | ```10.9.9.1/24```     | Management
 
 Remember: VRFs are case sensitive!
 
