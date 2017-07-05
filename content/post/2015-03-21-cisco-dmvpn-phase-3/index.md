@@ -45,21 +45,21 @@ For the following tunnel interface examples we need to lay out an example IP sch
 *   Data Center
     *   WAN IP: 1.1.1.1
     *   Tunnel100: 10.100.0.1
-    *   LAN 1: 192.168.10.0 /24
-    *   LAN 2: 192.168.11.0 /24
+    *   LAN 1: 192.168.10.0/24
+    *   LAN 2: 192.168.11.0/24
 *   HQ
     *   WAN IP: 2.2.2.2
     *   Tunnel100: 10.100.0.10
-    *   LAN 1: 192.168.20.0 /24
-    *   LAN 2: 192.168.21.0 /24
+    *   LAN 1: 192.168.20.0/24
+    *   LAN 2: 192.168.21.0/24
 *   SPOKE 1
     *   WAN IP: 3.3.3.3
     *   Tunnel100: 10.100.0.20
-    *   LAN: 192.168.41.0 /24
+    *   LAN: 192.168.41.0/24
 *   SPOKE 2
     *   WAN IP: 4.4.4.4
     *   Tunnel100: 10.100.0.30
-    *   LAN: 192.168.51.0 /24
+    *   LAN: 192.168.51.0/24
 
 Lets look at the configuration for our first hub…the Data Center:
 

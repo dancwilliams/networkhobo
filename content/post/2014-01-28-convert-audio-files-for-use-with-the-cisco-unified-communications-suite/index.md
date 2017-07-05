@@ -19,8 +19,6 @@ Due to inclement weather conditions in the southeast I had multiple clients that
 
 I like to use the [Switch application by NCH Software](http://www.nch.com.au/switch/index.html) for this task. For the amount of time I spend performing this task I find the software to be extremely easy to use, accepting of every format I have thrown at it, and relatively inexpensive. I thought the best way to show how to do this would be by shooting a quick video: 
 
-[![Conversion Video](http://img.youtube.com/vi/liPCTVBRWT4/0.jpg)](http://www.youtube.com/watch?v=liPCTVBRWT4)
-
 {{% youtube liPCTVBRWT4 %}}
 
 Also here is a quick screen shot of the settings for the WAV conversion so it will be in the format Cisco likes! I know we have all run into this especially with things like music on hold… 
