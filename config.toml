@@ -6,7 +6,7 @@ theme = "beautifulhugo"
 metaDataFormat = "yaml"
 pygmentsUseClasses = true
 pygmentCodeFences = true
-#disqusShortname = "XXX"
+#disqusShortname = "network-hobo"
 #googleAnalytics = "XXX"
 
 [permalinks]
@@ -14,7 +14,7 @@ pygmentCodeFences = true
 
 [Params]
   subtitle = "Thumbin' my way down the information superhighway..."
-  logo = "img/IMG_6236.jpg"
+  logo = "img/cropped-networkhobo.png"
   favicon = "img/favicon.ico"
   dateFormat = "January 2, 2006"
   commit = false
@@ -59,7 +59,7 @@ pygmentCodeFences = true
 [[menu.main]]
     name = "About"
     url = "page/about/"
-    weight = 3
+    weight = 2
 
 #[[menu.main]]
 #    identifier = "samples"
@@ -78,13 +78,12 @@ pygmentCodeFences = true
 #    url = "post/2017-03-05-math-sample"
 #    weight = 2
 
-#[[menu.main]]
-#    parent = "samples"
-#    name = "Code Sample"
-#    url = "post/2016-03-08-code-sample"
-#    weight = 3
-
 [[menu.main]]
     name = "Tags"
     url = "tags"
     weight = 3
+
+[[menu.main]]
+    name = "Categories"
+    url = "categories"
+    weight = 4
