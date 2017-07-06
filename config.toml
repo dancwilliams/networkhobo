@@ -24,6 +24,7 @@ googleAnalytics = "UA-101026183-1"
   staticman = true
   recaptcha_siteKey = "6LeRECgUAAAAAP9Xvm5SMVybb_Nnc0Ez7x18AG31"
   recaptcha_secret = "avSO5bXqbsYcpIaaDgy1jyj8bldY6I93HKsadvOb0QgKGo345Y564QL+aky/3iHegwcwf0U+i+Yah7EsB6P6UG7F2ebwBIIqehWA0cd4ZHz1FIzlS7jGw8r3k9uFSIyaJlJEdNgdrkFrsGalvVD4K0a2ab/OTx1DupNLUqhL2TM="
+  staticman_api = "https://api.staticman.net/v2/entry/dancwilliams/networkhobo/master/comments"
 
 #[[Params.bigimg]]
 #  src = "img/triangle.jpg"
