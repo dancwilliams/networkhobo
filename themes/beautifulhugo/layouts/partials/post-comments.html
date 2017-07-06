@@ -32,9 +32,15 @@
     <input name="fields[name]" type="text" class="post-comment-field" placeholder="Your name">
     <input name="fields[email]" type="email" class="post-comment-field" placeholder="Your email address">
     <textarea name="fields[body]" class="post-comment-field" placeholder="Your message. Feel free to use Markdown." rows="10"></textarea>
+    <input type="hidden" name="options[reCaptcha][siteKey]" value="6LeRECgUAAAAAP9Xvm5SMVybb_Nnc0Ez7x18AG31">
+<input type="hidden" name="options[reCaptcha][secret]" value="avSO5bXqbsYcpIaaDgy1jyj8bldY6I93HKsadvOb0QgKGo345Y564QL+aky/3iHegwcwf0U+i+Yah7EsB6P6UG7F2ebwBIIqehWA0cd4ZHz1FIzlS7jGw8r3k9uFSIyaJlJEdNgdrkFrsGalvVD4K0a2ab/OTx1DupNLUqhL2TM=">
+    
     <input type="submit" class="post-comment-field btn" value="Submit">
   </form>
 </section>
+
+<div class="g-recaptcha" data-sitekey="YOUR-SITE-KEY"></div>
+<script src='https://www.google.com/recaptcha/api.js'></script>
 
 <div id="comment-submitted" class="dialog">
 <h3>Thank you</h3>
