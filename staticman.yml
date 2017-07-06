@@ -63,12 +63,12 @@ comments:
     # (!) ENCRYPTED
     #
     # Mailgun API key
-    apiKey: "rfoX64guejjebjgqD8hU8SWM2uMwjf0AwWZ3P+OJfMjoHscgb49PCx9JLJw6nBDEzW9KM/s7XjIIDVkddGwsq574ns2ctmIejCSIxoT/wq7TL2GPld/tkNLrNI0uuFW+Li2DWM/ZMgg/llacgTjTexFJZTsITN/6boTFVlgpk/8="
+    apiKey: "XsYALRkaV1gOGyYJf1aoQRDxtXOy+phmqs0Wyyn8SPdzS6td+wFcPYmOgzD9SvhySlEExOWDKVGEeYTkqGk1YizH9i/zAvZCQ5EHC7Nr88Zbw88giujWTrjV/jP2wUHTjM4tsbWpnaE0T7diFU2EtcELdrC8lrQGqemXzyPwcgI="
 
     # (!) ENCRYPTED
     #
     # Mailgun domain (encrypted)
-    domain: "K5LJRuTDugNTfYc+/eSHfKGMyS2SsHbNnoYo1WCA96g4T/pFOcasDgNd7B+l9/O/touaeXiC1sx+RPcVNTlfOatfTvdtD1hCGNdL4XGqQNGXKJBi85j7dx2NN8smTiAjGwrQPWDy1HteH4PK0/amMdKmcup4cb3GVE3QxqTjOFU="
+    domain: "PG2MfsOXEOtSfSltjtCwz46FqG9O6tQvGr0UA/5FQF9VWNzk2puAHbzIjahkr6op2mwN2Ogncp+S4kRB2elSf5nl1XFUky+Z7mlKTt3wh8vYY79hiiqt25XsvmykiWie1qts+wh903uqMbZmksEgUhYONZG3YKIMyikFwSehFTM="
 
   # List of transformations to apply to any of the fields supplied. Keys are
   # the name of the field and values are possible transformation types.

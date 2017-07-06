@@ -29,6 +29,9 @@
   <form class="post-new-comment" method="POST" action="{{ .Site.Params.staticman_api }}">
     <input type="hidden" name="options[redirect]" value="https://networkhobo.com/comment_confirm">
     <input type="hidden" name="options[entryId]" value="{{ .UniqueID }}">
+    <input type="hidden" name="options[slug]" value="{{ .Slug }}">
+    <input type="hidden" name="options[origin]" value="{{ .Permalink }}">
+    <input type="hidden" name="options[parent]" value="{{ .Permalink }}">
     <input type="hidden" name="options[reCaptcha][siteKey]" value="{{ .Site.Params.recaptcha_siteKey }}">
     <input type="hidden" name="options[reCaptcha][secret]" value="{{ .Site.Params.recaptcha_secret }}">
 
@@ -54,7 +57,11 @@
         Send me an email when someone responds.
       </div>
     </fieldset>
-    <input type="submit" class="post-comment-field btn" value="Submit">
+
+    <fieldset>
+      <input type="submit" class="post-comment-field btn" value="Submit">
+    </fieldset>fieldset>
+
   </form>
 
 </section>
