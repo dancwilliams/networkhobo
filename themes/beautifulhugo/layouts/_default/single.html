@@ -27,8 +27,10 @@
         {{ end }}
       {{ end }}
 
-      {{ if (eq .Params.staticman nil) or (eq .Params.staticman true) }}
-        {{ partial "post-comments" . }}
+      {{ if (.Site.Params.staticman) }}
+        {{ if or (eq .Params.staticman nil) (.Params.staticman) }}
+          {{ partial "post-comments" . }}
+        {{ end }}
       {{ end }}
 
     </div>
