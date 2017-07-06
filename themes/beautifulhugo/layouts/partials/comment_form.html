@@ -1,0 +1,42 @@
+<section class="comment_form">
+  <h3>Say something</h3>
+
+  <form class="post-new-comment" method="POST" action="{{ .Site.Params.staticman_api }}">
+    <input type="hidden" name="options[redirect]" value="https://networkhobo.com/comment_confirm">
+    <input type="hidden" name="options[entryId]" value="{{ .UniqueID }}">
+    <input type="hidden" name="options[slug]" value="{{ .Slug }}">
+    <input type="hidden" name="options[origin]" value="{{ .Permalink }}">
+    <input type="hidden" name="options[parent]" value="{{ .Permalink }}">
+    <input type="hidden" name="options[reCaptcha][siteKey]" value="{{ .Site.Params.recaptcha_siteKey }}">
+    <input type="hidden" name="options[reCaptcha][secret]" value="{{ .Site.Params.recaptcha_secret }}">
+
+    <fieldset>
+      <input name="fields[name]" type="text" class="post-comment-field" placeholder="Your name">
+    </fieldset>
+
+    <fieldset>
+      <input name="fields[email]" type="email" class="post-comment-field" placeholder="Your email address">
+    </fieldset>
+
+    <fieldset>
+      <textarea name="fields[body]" class="post-comment-field" placeholder="Your message. Feel free to use Markdown." rows="10"></textarea>
+    </fieldset>
+
+    <fieldset>
+      <div class="g-recaptcha" data-sitekey="{{ .Site.Params.recaptcha_siteKey }}"></div>
+    </fieldset>
+    
+    <fieldset>
+      <div class="notify-me">
+        <input type="checkbox" id="comment-form-reply" name="options[subscribe]" value="email">
+        Send me an email when someone responds.
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <input type="submit" class="post-comment-field btn" value="Submit">
+    </fieldset>
+
+  </form>
+
+</section>
