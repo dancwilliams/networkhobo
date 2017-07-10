@@ -7,11 +7,13 @@ tags: [ "Catalyst", "Cisco", "data center", "routing", "switching", "upgrade" ]
 categories: [ "data center", "routing", "switching" ]
 ---
 
-## The Request:
+### The Request:
 
 I have a client with multiple 6807 VSS pairs that required an IOS upgrade. All of the pairs have a single SUP2-T in each chassis and were in the 15 code train. Although the ISSU process is very straight forward I wanted to put this quick process up as I had to search through multiple documents to gather all the pieces I needed to knock it out.
 
-## The Solution:
+<!--more-->
+
+### The Solution:
 
 Since these switches were in the proper code train to utilize ISSU I decided that was the best route to go. It also helps that everything was already dual-homed. This process is for VSS pairs with only one SUP per chassis! If you have another configuration you can reference the Cisco document provided at the bottom of the post. **_Some example text was taken from the Cisco Document referenced below_** One of the first things you want to verify is that there is a current boot variable configured on the VSS pair pointing to the version of code that is running currently. Some devices only have one version of code on the bootdisk so there is not a boot variable configured. For the ISSU to perform properly you MUST configure the boot variable:
 
@@ -259,11 +261,11 @@ Once this has completed your entire VSS pair will be upgraded. You can verify th
     keep_alive threshold = 18
     RF debug mask = 0x0
 
-## Conclusion:
+### Conclusion:
 
 Once I found all of the information I needed this was a very easy process and actually did not take as long as I expected. The boot variable was one issue I ran into but once I figured out what it was asking for that was easy to fix. Another thing to be mindful of is that after the upgrade process your original active processor will be the standby processor.
 
-## THANKS!
+### THANKS!
 
 I would like to say a quick thank you to the following references while I was working through this:
 

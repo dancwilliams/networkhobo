@@ -6,11 +6,13 @@ url: "2014/01/23/cconfigure-tacacs-access-on-nexus-7k"
 tags: [ "7K", "data center", "Nexus", "security", "TACACS+" ]
 ---
 
-## The Request:
+### The Request:
 
 Two new Nexus 7Ks have been installed at one of my client’s data centers. Management connectivity was brought up to the data center core and verified. I was given console access and told to configure TACACS+[^1] authentication and authorization on the F2 VDC[^2].
 
-## The Solution:
+<!--more-->
+
+### The Solution:
 
 Configuring TACACS+ on the Nexus 7K is totally different than on IOS and even different than on the Nexus 5K equipment. It also requires a certain order of operations and there is one solid “gotcha” that most people run into. But, knowing these going in will make this a painless procedure. The first thing to remember is that you MUST enter the TACACS+ server key UNENCRYPTED. Most templates within many organizations I work with keep the TACACS+ key in its encrypted format within template documents. Entering it into a Nexus 7K in this format WILL NOT WORK. Been there…done that… First you will need to make sure the TACACS+ feature in enabled on the NEXUS 7K by entering the following command:
 
@@ -85,11 +87,11 @@ I have included the full config below. If commands are entered in this order you
     aaa accounting default group TESTNAME
     aaa authentication login error-enable
 
-## Conclusion:
+### Conclusion:
 
 I had a selfish motive for writing this post…I was tired of join through it over and over again. If the order of operations is followed properly, and the gotchas are avoided, this can be a fun and painless procedure. I hope this helps everyone and if you have any questions or improvements just let me know!
 
-## THANKS!
+### THANKS!
 
 I would like to say a quick thank you to the following references while I was working through this:
 

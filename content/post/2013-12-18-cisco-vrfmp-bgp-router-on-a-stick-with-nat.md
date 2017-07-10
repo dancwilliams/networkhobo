@@ -16,6 +16,8 @@ I was approached by a client who wanted me to build their multi tenant network f
 
 The client also has an existing Cisco Unified Communications System that they will be configuring to provide voice services to all of the tenants. There will be no LAN-to-LAN communications between the tenants. There will be a reasonable amount of commercial grade Internet access and the tenants will be allowed to host some services locally (e-mail, collaboration software, etc.).
 
+<!--more-->
+
 ## My Proposed Solution:
 
 Since the switches are strictly layer two devices and there will be zero tenant-to-tenant communications at the LAN level I proposed a VRF[^2] solution utilizing the ISR as a router-on-a-stick. There will be a VRF for each tenant, a VRF for the voice service, a VRF for the WAN/Internet circuit. This will allow for strict separation of tenants while still allowing the sharing of voice and Internet services. Each VRF will reside in a VLAN that will be trounced to the stack of switches via a port-channel. I will leave the management VLAN in the global routing table.
@@ -26,7 +28,7 @@ Since the switches are strictly layer two devices and there will be zero tenant-
 
 Here is a small, basic, diagram of what we will be building:
 
-![alt text](/post/2013-12-18-cisco-vrfmp-bgp-router-on-a-stick-with-nat/VRF_MPBGP_DIAGRAM.png "Example Topology")
+[![Basic Network Diagram](/img/VRF_MPBGP_DIAGRAM.png?w=300)](/img/VRF_MPBGP_DIAGRAM.png)
 
 Here is how we broke down the VLANs/VRFs for the PoC[^3] lab:
 
