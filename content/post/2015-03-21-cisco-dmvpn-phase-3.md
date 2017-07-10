@@ -7,11 +7,13 @@ tags: [ "remote access", "Cisco", "routing", "security", "vrf" ]
 categories: [ "remote access", "routing", "security", "data center" ]
 ---
 
-## The Request:
+### The Request ###
 
 I have a client with a data center, a headquarters/DR site, and a lot of branches spread out all over the world with Internet connectivity.
 
 They are currently using static IPSEC Internet facing VPNs to connect to their data center and HQ environemts, but the company is hitting a growth spurt and they are quickly realizing this solution is becoming difficult to scale and manage with their limited in-house IT staff.
+
+<!--more-->
 
 The client wanted to stick with Internet based VPNs for connectivity. They also wanted a solution that would allow them to easily stand up a new remote site quickly with a template configuration and provide tunnel redundancy between the data center and HQ locations. They also wanted direct site-to-site communications when necessary.
 

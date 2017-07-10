@@ -3,7 +3,7 @@
 
   {{ $comments := readDir "data/comments" }}
   {{ $.Scratch.Add "hasComments" 0 }}
-  {{ $entryId := .UniqueID }}
+  {{ $entryId := .File.BaseFileName }}
 
   {{ range $comments }}
     {{ if eq .Name $entryId }}
