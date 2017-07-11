@@ -2,7 +2,7 @@
 title: "Blog Roadmap"
 date: 2017-07-05
 draft: false
-staticman: false
+comments: false
 lastmod: 2017-07-06
 ---
 
