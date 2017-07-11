@@ -2,6 +2,7 @@
 title: "Hi!  I'm Dan!"
 date: 2017-07-04
 draft: false
+comments: false
 ---
 
 ![Its Me!](/img/profile.jpg)
