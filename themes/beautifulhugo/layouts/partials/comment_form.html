@@ -2,7 +2,7 @@
   <h3>Say something</h3>
 
   <form class="post-new-comment" method="POST" action="{{ .Site.Params.staticman_api }}">
-    <input type="hidden" name="options[redirect]" value="{{ .Site.Params.staticman_redirect }}">
+    <input type="hidden" name="options[redirect]" value="{{ .Permalink }}#post-submitted">
     <input type="hidden" name="options[entryId]" value="{{ .File.BaseFileName }}">
     <input type="hidden" name="options[slug]" value="{{ .Permalink }}">
     <input type="hidden" name="options[origin]" value="{{ .Permalink }}">
@@ -38,5 +38,14 @@
     </fieldset>
 
   </form>
+
+  <div id="post-submitted" class="dialog">
+    <h3>Thank you</h3>
+    <p>Your post has been submitted and will be published once it has been approved.</p>
+    {{ if (.Site.Params.githubPullURL) }}
+      <p><a href="{{ .Site.Params.githubPullURL }}">Click here</a> to see the pull request you generated.</p>
+    {{ end }}
+    <p><a href="#" class="btn">OK</a></p>
+  </div> 
 
 </section>
