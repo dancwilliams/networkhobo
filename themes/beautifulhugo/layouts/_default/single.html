@@ -26,10 +26,8 @@
           </div>
         {{ end }}
         {{ if (.Site.Params.staticman_api) }}
-          {{ if or (eq .Params.staticman nil) (.Params.staticman) }}
-            {{ partial "post-comments" . }}
+          {{ partial "post-comments" . }}
         {{ end }}
-      {{ end }}
       {{ end }}
 
       <script src='https://www.google.com/recaptcha/api.js' async defer></script>
