@@ -25,7 +25,7 @@
             {{ template "_internal/disqus.html" . }}
           </div>
         {{ end }}
-        {{ if (.Site.staticman_api) }}
+        {{ if (.Site.Params.staticman_api) }}
           {{ partial "post-comments" . }}
         {{ end }}
       {{ end }}
