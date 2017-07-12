@@ -1,0 +1,6 @@
+_id: 1343
+name: Dan
+reply_to: 1342
+email: 9162d0c5aca33e7e4c8ec6fc3d44f541
+body: "Roy,\r\n\r\nThe limiter will need to be adjusted.  The limiter is shared by all devices that are being captured in your firewall rule.  Therefor, if you are using 4 devices I would suggest increasing your limiter to 20 Mbit/s.\r\n\r\nWe only watch one TV at a time, so I have set my limiter at 5 Mbit/s since this is the per stream bandwidth according to Playstation Vue documentation.  And Vue is the \"hungriest\" streaming app we use on the platform.\r\n\r\nThanks for reading and providing feedback!  If you have any further questions feel free to ask.\r\n\r\nDan W."
+date: 2017-03-12T15:34:14Z

@@ -1,0 +1,5 @@
+_id: 731
+name: mo1640
+email: fd0aa4d86d1728c771e5fddcdc9799bb
+body: "Great blog. I just wanted to point out that red and blue are swapped in the first section.\r\n\r\n```\r\nip vrf blue\r\n rd 65000:1\r\n!\r\nip vrf red\r\n rd 65000:2\r\n```\r\nIP is also incorrect here:\r\n```\r\ninterface Port-channel1.999\r\n encapsulation dot1Q 999\r\n ip address 10.9.91 255.255.255.0\r\n ip virtual-reassembly in\r\n```"
+date: 2015-05-23T02:21:06Z

@@ -1,0 +1,6 @@
+_id: 769
+name: Dan
+reply_to: 767
+email: 9162d0c5aca33e7e4c8ec6fc3d44f541
+body: This method will work with the 6880X.  We have upgraded a few VSS pairs based on that platform.  For our VSS pairs we use a routed port-channel for management access to our dedicated management network.  We also place that routed port-channel in its own management VRF to keep it separated.  That way when we do a failover we just log back into the management Po IP address and are back on the active chassis. When you then issue the 'issu load version' command it will automatically choose the proper processor.  No need for any other interaction.
+date: 2015-06-11T13:20:09Z
