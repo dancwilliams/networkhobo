@@ -1,0 +1,6 @@
+_id: 1088
+name: Baz
+reply_to: 1022
+email: 08b0f9d188ca36f43abd6c43f32506da
+body: Had the same problem. Try turning off and unplugging printer for 30s then back on. I had jobs in the print queue that I think prevented the cartridge reset.
+date: 2016-03-30T20:13:11Z

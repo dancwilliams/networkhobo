@@ -1,0 +1,5 @@
+_id: 1473
+name: Sterling
+email: 9c33c2a2c5506319dd56cf370c5fb436
+body: "As of today ( 6/2/2017 ) this works fine. The godaddy website errors when you attempt this, however, if you try again it reports the record already exists. Even though the error occurs, the correct changes are still made. I was able to test www.subdomain.domain.com and it correctly resolved to my subdomain dns provider.\r\n\r\nThanks for posting this."
+date: 2017-06-02T19:24:40Z
