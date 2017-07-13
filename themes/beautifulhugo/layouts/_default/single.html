@@ -49,33 +49,7 @@
           </script>
         </field>
       {{ end }}
-      <script>
-      var commentContainerSelector = '#comments ul';
-       
-      if($(commentContainerSelector).length > 0 && "WebSocket" in window) {
-        var ws = new WebSocket("ws://webmention.io:8080");
-        ws.onopen = function(event) {
-          // Send the current window URL to the server to register to receive notifications about this URL
-          ws.send(window.location);
-        };
-        ws.onmessage = function(event) {
-          var data = JSON.parse(event.data);
-      
-          if(data && data.type == "webmention") {
-            // Create a simple <li> element with the information from the post.
-            // Probably you will want to change the HTML generated here.
-            var comment = $('<li/>').html('<a href="'+data.author.url+'"><img src="'+data.author.photo+'" width="48"></a> <a href="'+data.author.url+'">'+data.      author.name+'</a><br />'+data.content+'<br /><a href="'+data.url+'">'+data.published+'</a>');
-      
-            // Check if we've already added a comment for this ID, and update the existing one if so
-            if($("#"+data.element_id).length == 0) {
-              $(commentContainerSelector).append(comment);
-            } else {
-              $("#"+data.element_id+" li").html(comment);
-            }
-          }
-        };
-      }
-      </script>
+      <span data-webmention-count data-url="{{ .Permalink }}"></span> mentions
     </div>
   </div>
 </div>
