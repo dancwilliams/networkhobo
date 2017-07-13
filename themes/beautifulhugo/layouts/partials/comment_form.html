@@ -21,10 +21,6 @@
     <fieldset>
       <textarea name="fields[body]" class="post-comment-field" placeholder="Your message. Feel free to use Markdown." rows="10"></textarea>
     </fieldset>
-
-    <fieldset>
-      <div class="g-recaptcha" data-sitekey="{{ .Site.Params.recaptcha_siteKey }}"></div>
-    </fieldset>
     
     <fieldset>
       <div class="notify-me">
@@ -34,6 +30,8 @@
     </fieldset>
 
     <fieldset>
+      <div class="g-recaptcha" data-sitekey="{{ .Site.Params.recaptcha_siteKey }}"></div>
+      <script src='https://www.google.com/recaptcha/api.js'></script>
       <input type="submit" class="post-comment-field btn" value="Submit">
     </fieldset>
 
