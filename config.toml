@@ -22,7 +22,7 @@ googleAnalytics = "UA-101026183-1"
   comments = true
   gcse = "015770664108612180781:in6ix6y_v9o" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
   recaptcha_siteKey = "6LeRECgUAAAAAP9Xvm5SMVybb_Nnc0Ez7x18AG31"
-  recaptcha_secret = "kDfDJownZ5tj8xiZ916uNgAGQzoNeS6U0IKw8+ZMyxpWrreHSD6QfwU4e/tii4z2rHgFd+VxJc0jmmmuDyEF2bTsXEkNJuyagCs0f/yfTDYm0ZsWzu/aAbDZ8hNQmsXniHgJYyXOe1l9vdzsuBpqLIkVdyMTp8BULdNNcGeZkp4="
+  recaptcha_secret = "kDfDJownZ5tj8xiZ916uNgAGQzoNeS6U0IKw8\+ZMyxpWrreHSD6QfwU4e/tii4z2rHgFd\+VxJc0jmmmuDyEF2bTsXEkNJuyagCs0f/yfTDYm0ZsWzu/aAbDZ8hNQmsXniHgJYyXOe1l9vdzsuBpqLIkVdyMTp8BULdNNcGeZkp4="
   staticman_api = "https://api.staticman.net/v2/entry/dancwilliams/networkhobo/master/comments" #Add staticman API URL to enable staticman comments
   githubPullURL = "https://github.com/dancwilliams/networkhobo/pulls"
   adsensePubID = "pub-8071463113547568" # adsensepublisher ID eg. pub-XXXXXX
