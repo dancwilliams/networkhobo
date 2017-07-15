@@ -7,8 +7,8 @@
     <input type="hidden" name="options[slug]" value="{{ .Permalink }}">
     <input type="hidden" name="options[origin]" value="{{ .Permalink }}">
     <input type="hidden" name="options[parent]" value="{{ .File.BaseFileName }}">
-    <input type="hidden" name="options[reCaptcha][siteKey]" value="{{ .Site.Params.recaptcha_siteKey }}">
-    <input type="hidden" name="options[reCaptcha][secret]" value="{{ .Site.Params.recaptcha_secret }}">
+    <input type="hidden" name="options[reCaptcha][siteKey]" value="6LeRECgUAAAAAP9Xvm5SMVybb_Nnc0Ez7x18AG31">
+    <input type="hidden" name="options[reCaptcha][secret]" value="kDfDJownZ5tj8xiZ916uNgAGQzoNeS6U0IKw8+ZMyxpWrreHSD6QfwU4e/tii4z2rHgFd+VxJc0jmmmuDyEF2bTsXEkNJuyagCs0f/yfTDYm0ZsWzu/aAbDZ8hNQmsXniHgJYyXOe1l9vdzsuBpqLIkVdyMTp8BULdNNcGeZkp4=">
 
     <fieldset>
       <input name="fields[name]" type="text" class="post-comment-field" placeholder="Your name">
@@ -30,7 +30,7 @@
     </fieldset>
 
     <fieldset>
-      <div class="g-recaptcha" data-sitekey="{{ .Site.Params.recaptcha_siteKey }}"></div>
+      <div class="g-recaptcha" data-sitekey="6LeRECgUAAAAAP9Xvm5SMVybb_Nnc0Ez7x18AG31"></div>
 
       <input type="submit" class="post-comment-field btn" value="Submit">
     </fieldset>
