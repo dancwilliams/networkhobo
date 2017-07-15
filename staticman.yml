@@ -78,8 +78,7 @@ comments:
 reCaptcha:
   enabled: true
   siteKey: "6LeRECgUAAAAAP9Xvm5SMVybb_Nnc0Ez7x18AG31"
-  secret: "kDfDJownZ5tj8xiZ916uNgAGQzoNeS6U0IKw8+ZMyxpWrreHSD6QfwU4e/tii4z2rHgFd+VxJc0jmmmuDyEF2bTsXEkNJuyagCs0f/yfTDYm0ZsWzu/aAbDZ8hNQmsXniHgJYyXOe1l9vdzsuBpqLIkVdyMTp8BULdNNcGeZkp4="
-
+  secret: "CZAsXpvGJRrx2ugpNnwAYIcx8nDIdEj2SjJ7IdGAwyVCL4VKa02SaESFJMFGPVPcHlF1theyH64Osq/95ApFvWSGI3PElXUF2BAOByrf+lpcQztdc9czG5ZEXyqOPlQ8Oj08x3bwIT5sfdc0lTm6CSa9KAsgi1NnVDcuccqqY3I="
 posts:
   allowedFields: ["title", "body"]
   allowedOrigins: ["localhost", "networkhobo.com", "networkhobo.netlify.com"]
