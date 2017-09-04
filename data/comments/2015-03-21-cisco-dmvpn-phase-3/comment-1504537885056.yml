@@ -1,0 +1,6 @@
+_id: 51217560-9183-11e7-acc3-59682e045002
+_parent: 2015-03-21-cisco-dmvpn-phase-3
+name: Spencer Allsop
+email: e62dc48f2fea9aec837e3a604d1dc882
+body: "Is there a reason that this uses a static nhs mapping, rather than ` ip nhrp nhs dynamic nbma 1.1.1.1 multicast`\r\n\r\nIt seems to offer the same functionality, but is there something I'm missing?"
+date: '2017-09-04T15:11:25.055Z'
