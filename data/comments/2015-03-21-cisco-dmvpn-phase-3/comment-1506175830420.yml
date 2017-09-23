@@ -1,0 +1,6 @@
+_id: f49b4970-a068-11e7-b95d-331e54beb831
+_parent: 2015-03-21-cisco-dmvpn-phase-3
+name: Dan
+email: 7d9887f6134dcbad2b18e726f155e833
+body: "Dan.. Great Write-up!  Thanks!\r\nwe have a requirement to have all spoke traffic transit via hub site(s) for inspection.  I've been knocking myself out trying to break this nut, but have so far failed miserably.  I'm thinking FVRF, but also read somewhere that it's really not needed, EIGRP can pass default routes (but haven't been able to get either to work in GNS3).\r\nAll of our locations, except two have point-point links to the respective ISP, and all but one also have at least a /29  netblock assigned (most not currently implemented) \r\ntoday, the 'ip nat outside' is on our end of the /30 ISP link, with the 'ip nat inside' on each of our internal / LAN side interfaces (except the tunnels).\r\nEvery thing is up and running today, EXCEPT having all internet traffic forced via HUBs.  (the remote sites with netblocks do not and will not use them).  \r\n  Perhaps you or someone could shed some insight.. .I'm sure I'm missing something basic right in front of me.  Just can't see it."
+date: '2017-09-23T14:10:30.394Z'
