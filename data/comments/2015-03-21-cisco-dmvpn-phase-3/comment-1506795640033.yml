@@ -1,0 +1,6 @@
+_id: 0ffce5e0-a60c-11e7-92c3-3bce658fe711
+_parent: 2015-03-21-cisco-dmvpn-phase-3
+name: Eric
+email: ''
+body: "IF you want spoke traffic to always route through the hubs then use dmvpn phase1\r\n\r\nhttps://learningnetwork.cisco.com/blogs/vip-perspectives/2017/02/15/dmvpn-the-phases-in-depth"
+date: '2017-09-30T18:20:40.033Z'
