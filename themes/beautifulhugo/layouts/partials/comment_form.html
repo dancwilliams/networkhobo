@@ -33,12 +33,23 @@
     <fieldset>
       <div class="g-recaptcha" data-sitekey="6LeRECgUAAAAAP9Xvm5SMVybb_Nnc0Ez7x18AG31" data-callback="enableBtn"></div>
 
-      <input type="submit" class="post-comment-field btn" value="Submit">
+      <input type="submit" class="post-comment-field btn" value="Submit" id="submit_button">
     </fieldset>
 
   </form>
 
   <script async src='https://www.google.com/recaptcha/api.js' ></script>
+
+
+  <script type="text/javascript">
+    document.getElementById("submit_button").disabled = true;
+  </script>
+  
+  <script type="text/javascript">
+    function enableBtn(){
+       document.getElementById("submit_button").disabled = false;
+      }
+  </script>
 
   <div id="post-submitted" class="dialog">
     <h3>Thank you</h3>
