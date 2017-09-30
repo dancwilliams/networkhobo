@@ -40,6 +40,13 @@
 
   <script async src='https://www.google.com/recaptcha/api.js' ></script>
 
+  <script language="javascrript">
+    document.getElementById("button1").disabled = true;
+    function enableBtn(){
+       document.getElementById("button1").disabled = false;
+      }
+  </script>
+
   <div id="post-submitted" class="dialog">
     <h3>Thank you</h3>
     <p>Your post has been submitted and will be published once it has been approved.</p>

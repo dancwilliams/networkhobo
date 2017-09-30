@@ -4,10 +4,6 @@ var main = {
 
   bigImgEl : null,
   numImgs : null,
-  
-  function enableBtn(){
-     document.getElementById("submit_button").disabled = false;
-    }
 
   init : function() {
     // Shorten the navbar after scrolling a little bit down
@@ -140,4 +136,3 @@ var main = {
 // 2fc73a3a967e97599c9763d05e564189
 
 document.addEventListener('DOMContentLoaded', main.init);
-document.getElementById("button1").disabled = true;
