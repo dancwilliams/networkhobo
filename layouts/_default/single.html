@@ -25,8 +25,27 @@
             {{ template "_internal/disqus.html" . }}
           </div>
         {{ end }}
+        {{ if (.Site.Params.staticman_api) }}
+          {{ partial "post-comments" . }}
+        {{ end }}
       {{ end }}
 
+      <br>
+      
+      {{ if and (.Site.Params.adsensePubID) (.Site.Params.adsenseAdID)  }}
+        <field>
+          <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- NetworkHobo Test -->
+          <ins class="adsbygoogle"
+              style="display:block"
+              data-ad-client="ca-{{ .Site.Params.adsensePubID }}"
+              data-ad-slot="{{ .Site.Params.adsenseAdID }}"
+              data-ad-format="auto"></ins>
+          <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+        </field>
+      {{ end }}
     </div>
   </div>
 </div>
