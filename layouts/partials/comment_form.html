@@ -1,4 +1,5 @@
 <section class="comment_form">
+  <a id="comment-form"></a>
   <h3>Say something</h3>
 
   <form class="post-new-comment" method="POST" action="{{ .Site.Params.staticman_api }}">
@@ -8,8 +9,9 @@
     <input type="hidden" name="options[slug]" value="{{ .Permalink }}">
     <input type="hidden" name="options[origin]" value="{{ .Permalink }}">
     <input type="hidden" name="options[parent]" value="{{ .File.BaseFileName }}">
-    <input type="hidden" name="options[reCaptcha][siteKey]" value="6LeRECgUAAAAAP9Xvm5SMVybb_Nnc0Ez7x18AG31">
-    <input type="hidden" name="options[reCaptcha][secret]" value="CZAsXpvGJRrx2ugpNnwAYIcx8nDIdEj2SjJ7IdGAwyVCL4VKa02SaESFJMFGPVPcHlF1theyH64Osq/95ApFvWSGI3PElXUF2BAOByrf+lpcQztdc9czG5ZEXyqOPlQ8Oj08x3bwIT5sfdc0lTm6CSa9KAsgi1NnVDcuccqqY3I=">
+    <input type="hidden" name="fields[reply_to]" value="">
+    <input type="hidden" name="options[reCaptcha][siteKey]" value="{{ .Site.Params.recaptcha_siteKey }}">
+    <input type="hidden" name="options[reCaptcha][secret]" value="{{ .Site.Params.recaptcha_secret }}">
 
     <fieldset>
       <input name="fields[name]" type="text" class="post-comment-field" placeholder="Your name">
@@ -31,7 +33,7 @@
     </fieldset>
 
     <fieldset>
-      <div class="g-recaptcha" data-sitekey="6LeRECgUAAAAAP9Xvm5SMVybb_Nnc0Ez7x18AG31" data-callback="enableBtn"></div>
+      <div class="g-recaptcha" data-sitekey="{{ .Site.Params.recaptcha_siteKey }}" data-callback="enableBtn"></div>
 
       <input type="submit" class="post-comment-field btn" value="Submit" id="submit_button">
     </fieldset>
@@ -67,3 +69,9 @@
   </div> 
 
 </section>
+
+<script>
+   function changeValue(elementName, newValue){
+     document.getElementsByName(elementName)[0].value=newValue;
+    }
+</script>
