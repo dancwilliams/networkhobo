@@ -746,6 +746,13 @@ input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gs
   width: 100%;
 }
 
+.post-comment-reply {
+  background-color: #eee;
+  padding: 20px;
+  margin-top: 20px;
+  margin-left: 4.5em
+}
+
 .btn {
   border: 2px solid #F76C5E;
   background-color: #F76C5E;
@@ -754,6 +761,17 @@ input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gs
   font: inherit;
   padding: 20px;
   min-width: 100px;
+  -webkit-appearance: none;
+}
+
+.btn-info {
+  border: 1px solid #5e60f7;
+  background-color: #5e60f7;
+  color: white;
+  display: inline-block;
+  font: inherit;
+  padding: 10px;
+  min-width: 50px;
   -webkit-appearance: none;
 }
 
