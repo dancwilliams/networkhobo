@@ -657,6 +657,7 @@ table tr td :last-child {
 pre {
   font-size: 16px;
   line-height: 1.5em;
+  overflow-x: auto;
 }
 pre code {
   white-space: pre;
