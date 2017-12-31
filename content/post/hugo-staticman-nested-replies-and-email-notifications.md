@@ -1,7 +1,7 @@
 ---
 title: "Hugo + Staticman: Nested Replies and E-mail Notifications"
 date: 2017-12-30T20:47:00-06:00
-draft: true
+draft: false
 tags: [ "go", "hugo", "staticman", "comments" ]
 categories: [ "hugo", "staticman" ]
 ---
