@@ -5,7 +5,7 @@ title = "Network Hobo"
 theme = "beautifulhugo"
 metaDataFormat = "yaml"
 pygmentsUseClasses = true
-pygmentCodeFences = true
+pygmentsCodeFences = true
 #disqusShortname = "network-hobo"
 googleAnalytics = "UA-101026183-1"
 
