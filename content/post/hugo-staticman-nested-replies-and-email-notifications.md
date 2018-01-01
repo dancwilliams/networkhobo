@@ -4,7 +4,6 @@ date: 2017-12-30T20:47:00-06:00
 draft: false
 tags: [ "go", "hugo", "staticman", "comments" ]
 categories: [ "hugo", "staticman" ]
-lastmod: 2018-1-1
 ---
 
 In this post I want to cover the steps I went through to get Staticman nested comments and e-mail notifications working in Hugo.
