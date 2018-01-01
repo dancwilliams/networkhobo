@@ -4,6 +4,7 @@ date: 2017-12-30T20:47:00-06:00
 draft: false
 tags: [ "go", "hugo", "staticman", "comments" ]
 categories: [ "hugo", "staticman" ]
+lastmod: 2018-1-1
 ---
 
 In this post I want to cover the steps I went through to get Staticman nested comments and e-mail notifications working in Hugo.
@@ -97,7 +98,7 @@ You can see that most of this is pulled from the Staticman Hugo example.  I did 
 
 I had to add a piece of JavaScript to the reply button to set the value of the ```fields[reply_to]``` hidden input.  This field is set to the ```._id``` value of the current parent comment.  This allows for the fields to be properly populated by Staticman:
 
-_Located at the bottom of [```main.js```](https://github.com/dancwilliams/networkhobo/blob/master/static/js/main.js)._
+_Located [here](hhttps://github.com/dancwilliams/networkhobo/blob/master/static/js/dan_custom.js)_
 
 ```javascript
 // Added function to change value onclick
