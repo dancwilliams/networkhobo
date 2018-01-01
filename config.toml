@@ -8,6 +8,7 @@ pygmentsUseClasses = true
 pygmentsCodeFences = true
 #disqusShortname = "network-hobo"
 googleAnalytics = "UA-101026183-1"
+enableGitInfo = true
 
 [permalinks]
   post = "/:year/:month/:day/:title/"
