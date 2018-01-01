@@ -38,7 +38,7 @@ Now I need to investigate how to handle e-mail notifications.  That is when I st
 
 The first thing I wanted to be sure of was that I did not statically configure anything.  I wanted Staticman to act just like another available comment module within the template.  Therefor I added the following pieces of information to the ```Params``` section of my [```config.toml```](https://github.com/dancwilliams/networkhobo/blob/master/config.toml) file:
 
-```toml
+```yaml
 staticman_api = "https://api.staticman.net/v2/entry/dancwilliams/networkhobo/master/comments" #Add staticman API URL to enable staticman comments
 ```
 

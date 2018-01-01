@@ -1,51 +1,51 @@
 # Content
 - id: dateFormat
-  translation: "January 2, 2006"
+  translation: "02.01.2006"
 - id: shortdateFormat
   translation: "2 Jan, 2006 15:04:05"
 - id: postedOnDate
-  translation: "发表于 {{ .Count }}"
+  translation: "Gepostet am {{ .Count }}"
 - id: lastModified
-  translation: "(上次修改时间 {{ .Count }})"
+  translation: "(Zuletzt geändert am {{ .Count }})"
 - id: translationsLabel
-  translation: "其它语言: "
+  translation: "Andere Sprachen: "
 - id: translationsSeparator
   translation: ", "
 - id: readMore
-  translation: "阅读全文"
+  translation: "Mehr"
 - id: olderPosts
-  translation: "下一页"
+  translation: "Ältere Posts"
 - id: newerPosts
-  translation: "上一页"
+  translation: "Neuere Posts"
 - id: previousPost
-  translation: "前一篇"
+  translation: "Letzter Post"
 - id: nextPost
-  translation: "后一篇"
+  translation: "Nächster Post"
 - id: readTime
-  translation: "分钟"
+  translation: "Minuten"
 - id: words
-  translation: "个字"
+  translation: "Wörter"
 
 
 # 404 page
 - id: pageNotFound
-  translation: "啊哦，这篇文章不存在。 (404 错误)"
+  translation: "Ups, diese Seite existiert nicht. (404 Error)"
 
 # Footer
 - id: poweredBy # Accepts HTML
-  translation: '由 <a href="http://gohugo.io">Hugo v{{ .Hugo.Version }}</a> 强力驱动 &nbsp;&bull;&nbsp; 主题 <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> 移植自 <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>'
+  translation: '<a href="http://gohugo.io">Hugo v{{ .Hugo.Version }}</a> powered &nbsp;&bull;&nbsp; Theme by <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>'
 
 # Navigation
 - id: toggleNavigation
-  translation: "切换导航"
+  translation: "Navigation"
 - id: languageSwitcherLabel
-  translation: "语言"
+  translation: "Sprache"
 - id: gcseLabelShort
-  translation: "搜索"
+  translation: "Suche"
 - id: gcseLabelLong
-  translation: "搜索 {{ .Site.Title }}"
+  translation: "Suche {{ .Site.Title }}"
 - id: gcseClose
-  translation: "关闭"
+  translation: "Schließen"
 
 # Staticman
 - id: noComment
@@ -62,6 +62,5 @@
   translation: "Your email address"
 - id: yourWebsite
   translation: "You website"
-
 
 
