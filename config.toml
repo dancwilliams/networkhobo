@@ -28,6 +28,7 @@ googleAnalytics = "UA-101026183-1"
   adsensePubID = "pub-8071463113547568" # adsensepublisher ID eg. pub-XXXXXX
   adsenseAdID = "8021396735"
   UseChroma = true
+  readingTime = true
 
 #[[Params.bigimg]]
 #  src = "img/triangle.jpg"
