@@ -61,14 +61,14 @@ enableGitInfo = true
 #  itchio = "username"
 
 [[menu.main]]
-    name = "Blog"
-    url = ""
-    weight = 1
+    name = "Links"
+    url = "links"
+    weight = 5
 
 [[menu.main]]
     name = "About"
     url = "about"
-    weight = 2
+    weight = 1
 
 #[[menu.main]]
 #    identifier = "samples"
@@ -90,14 +90,14 @@ enableGitInfo = true
 [[menu.main]]
     name = "Tags"
     url = "tags"
-    weight = 3
+    weight = 2
 
 [[menu.main]]
     name = "Categories"
     url = "categories"
-    weight = 4
+    weight = 3
 
 [[menu.main]]
     name = "Roadmap"
     url = "roadmap"
-    weight = 5
+    weight = 4
