@@ -41,6 +41,8 @@ My favorite podcatcher is [Overcast](https://overcast.fm).  Check it out!
     * Python Training
 * [RMOTR](https://rmotr.com)
     * Live Online Python Training
+    * I have taken the advanced Python course from RMOTR, but it looks like their offerings have changed.
+    * I really enjoyed their style and I am sure their new content is great.
 * [Talk Python to Me](https://training.talkpython.fm)
     *  Python Training
 
