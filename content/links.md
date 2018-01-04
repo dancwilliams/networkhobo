@@ -45,6 +45,8 @@ My favorite podcatcher is [Overcast](https://overcast.fm).  Check it out!
     * I really enjoyed their style and I am sure their new content is great.
 * [Talk Python to Me](https://training.talkpython.fm)
     *  Python Training
+* [PyBites Code Challenges](https://codechalleng.es)
+    * These are really fun Python code challenges.  Neat stuff form the folks at [PyBites](https://pybit.es)
 
 #### Random Links
 
