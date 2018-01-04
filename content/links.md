@@ -56,3 +56,5 @@ My favorite podcatcher is [Overcast](https://overcast.fm).  Check it out!
             * Great write up and discussion on these CPU hacks. 
         * [Meltdown Whitepaper](https://meltdownattack.com/meltdown.pdf)
         * [Spectre Whitepaper](https://spectreattack.com/spectre.pdf)
+* Git
+    * [Great article](http://dan.mccloy.info/2015/06/11/Git-submodules/) on using git submodules.
