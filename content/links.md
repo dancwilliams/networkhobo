@@ -49,6 +49,7 @@ My favorite podcatcher is [Overcast](https://overcast.fm).  Check it out!
     * These are really fun Python code challenges.  Neat stuff form the folks at [PyBites](https://pybit.es)
 * [Test Driven Development Courses](https://testdriven.io)
     * Microservices with Docker, Flask, and React
+* [8 Fun Machine Learning Projects for Beginners](https://elitedatascience.com/machine-learning-projects-for-beginners)
 
 #### Random Links
 
