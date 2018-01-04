@@ -58,3 +58,4 @@ My favorite podcatcher is [Overcast](https://overcast.fm).  Check it out!
         * [Spectre Whitepaper](https://spectreattack.com/spectre.pdf)
 * Git
     * [Great article](http://dan.mccloy.info/2015/06/11/Git-submodules/) on using git submodules.
+    * One of my favorite [articles](http://nvie.com/posts/a-successful-git-branching-model/) on git branching models.
