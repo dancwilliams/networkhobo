@@ -53,4 +53,4 @@ My favorite podcatcher is [Overcast](https://overcast.fm).  Check it out!
 * Security
     * [Twitter thread on Spectra and Meltdown attacks](https://twitter.com/pjf/status/948734009701380096)
         * [SpectreAttack.com](https://spectreattack.com/)
-        * Great write uo and discussion on these CPU hacks. 
+        * Great write up and discussion on these CPU hacks. 
