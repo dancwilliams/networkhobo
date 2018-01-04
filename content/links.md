@@ -56,6 +56,7 @@ My favorite podcatcher is [Overcast](https://overcast.fm).  Check it out!
             * Great write up and discussion on these CPU hacks. 
         * [Meltdown Whitepaper](https://meltdownattack.com/meltdown.pdf)
         * [Spectre Whitepaper](https://spectreattack.com/spectre.pdf)
+        * [Another great Twitter thread on this.](https://twitter.com/securelyfitz/status/949004862968143873)
 * Git
     * [Great article](http://dan.mccloy.info/2015/06/11/Git-submodules/) on using git submodules.
     * One of my favorite [articles](http://nvie.com/posts/a-successful-git-branching-model/) on git branching models.
