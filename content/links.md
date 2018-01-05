@@ -63,3 +63,5 @@ My favorite podcatcher is [Overcast](https://overcast.fm).  Check it out!
 * Git
     * [Great article](http://dan.mccloy.info/2015/06/11/Git-submodules/) on using git submodules.
     * One of my favorite [articles](http://nvie.com/posts/a-successful-git-branching-model/) on git branching models.
+* Website Stuff
+    * [Here](https://help.farbox.com/pygments.html) is an example of the different Pygments themes.  Also work for Chroma.
