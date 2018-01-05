@@ -1,6 +1,3 @@
-[build]
-  command = " GIT_COMMIT_SHA=`git rev-parse --verify HEAD` GIT_COMMIT_SHA_SHORT=`git rev-parse --short HEAD`"
-
 [context.deploy-preview]
   HUGO_VERSION = "0.31.1"
   command = "hugo --buildDrafts --buildFuture --baseURL /"
