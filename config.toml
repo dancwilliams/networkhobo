@@ -7,7 +7,7 @@ metaDataFormat = "yaml"
 #pygmentsUseClasses = true
 pygmentsCodeFences = true
 pygmentsStyle = "emacs"
-#disqusShortname = "network-hobo"
+#disqusShortname = ""
 googleAnalytics = "UA-101026183-1"
 enableGitInfo = true
 
