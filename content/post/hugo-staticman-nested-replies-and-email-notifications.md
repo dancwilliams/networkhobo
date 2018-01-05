@@ -44,7 +44,7 @@ staticman_api = "https://api.staticman.net/v2/entry/dancwilliams/networkhobo/mas
 
 Then I added some logic to the [```layouts/_default/single.html```](https://github.com/dancwilliams/networkhobo/blob/master/layouts/_default/single.html) file to look for the staticman_api Site.Param, and if existed to add the ```post-comments.html``` partial:
 
-```html
+```html 
 {{ if (.Params.comments) | or (and (or (not (isset .Params "comments")) (eq .Params.comments nil)) (.Site.Params.comments)) }}
   {{ if .Site.DisqusShortname }}
     <div class="disqus-comments">
