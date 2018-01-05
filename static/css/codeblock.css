@@ -3,10 +3,11 @@
 pre {
   font-size: 16px;
   line-height: 1.5em;
-  overflow-x: auto;
 }
-pre code {
-  white-space: pre;
+@media only screen and (min-width: 768px) {
+  pre code {
+    white-space: pre;
+  }
 }
 pre.highlight, .highlight > pre, td.code pre {
   background: #FAFAFA;
