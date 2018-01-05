@@ -37,16 +37,20 @@ enableGitInfo = true
 #[[Params.bigimg]]
 #  src = "img/sphere.jpg"
 #  desc = "Sphere"
+#  # position: see values of CSS background-position.
+#  position = "center top"
 #[[Params.bigimg]]
 #  src = "img/hexagon.jpg"
 #  desc = "Hexagon"
 
 [Author]
   name = "Dan C Williams"
+  website = "https://networkhobo.com"
   email = "dan@networkhobo.com"
 #  facebook = "username"
 #  googleplus = "+username" # or xxxxxxxxxxxxxxxxxxxxx
   github = "dancwilliams"
+  gitlab = "dancwilliams"
   twitter = "dancwilliams"
 #  reddit = "username"
   linkedin = "danielcwilliams"
@@ -59,6 +63,9 @@ enableGitInfo = true
 #  spotify = "username"
 #  bandcamp = "username"
 #  itchio = "username"
+#  vk = "username"
+#  paypal = "username"
+#  telegram = "username"
 
 [[menu.main]]
     name = "Links"
