@@ -6,6 +6,7 @@ theme = "beautifulhugo"
 metaDataFormat = "yaml"
 pygmentsUseClasses = true
 pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = false
 #pygmentsStyle = "emacs"
 #disqusShortname = ""
 googleAnalytics = "UA-101026183-1"
@@ -53,7 +54,7 @@ enableGitInfo = true
   github = "dancwilliams"
   gitlab = "dancwilliams"
   twitter = "dancwilliams"
-#  reddit = "username"
+  reddit = "dancwilliams"
   linkedin = "danielcwilliams"
 #  xing = "username"
 #  stackoverflow = "users/XXXXXXX/username"
@@ -61,17 +62,12 @@ enableGitInfo = true
 #  instagram = "username"
   youtube = "channel/UCHuOvIJOUujSGpt021fYxww" # or user/dancwilliams
 #  soundcloud = "username"
-#  spotify = "username"
+  spotify = "dancwilliams"
 #  bandcamp = "username"
 #  itchio = "username"
 #  vk = "username"
 #  paypal = "username"
 #  telegram = "username"
-
-[[menu.main]]
-    name = "Links"
-    url = "links"
-    weight = 5
 
 [[menu.main]]
     name = "About"
@@ -92,3 +88,32 @@ enableGitInfo = true
     name = "Roadmap"
     url = "roadmap"
     weight = 4
+
+[[menu.main]]
+    name = "Links"
+    identifier = "links"
+    weight = 50
+
+[[menu.main]]
+    parent = "links"
+    name = "Podcasts"
+    url = "page/podcasts/"
+    weight = 51
+
+[[menu.main]]
+    parent = "links"
+    name = "Blogs"
+    url = "page/blogs/"
+    weight = 52
+
+[[menu.main]]
+    parent = "links"
+    name = "Training"
+    url = "page/training/"
+    weight = 53
+
+[[menu.main]]
+    parent = "links"
+    name = "Random"
+    url = "page/random/"
+    weight = 54
