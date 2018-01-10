@@ -97,23 +97,23 @@ enableGitInfo = true
 [[menu.main]]
     parent = "links"
     name = "Podcasts"
-    url = "page/podcasts/"
+    url = "links/podcasts/"
     weight = 51
 
 [[menu.main]]
     parent = "links"
     name = "Blogs"
-    url = "page/blogs/"
+    url = "links/blogs/"
     weight = 52
 
 [[menu.main]]
     parent = "links"
-    name = "Training"
-    url = "page/training/"
+    name = "Learning"
+    url = "links/learning/"
     weight = 53
 
 [[menu.main]]
     parent = "links"
     name = "Random"
-    url = "page/random/"
+    url = "links/random/"
     weight = 54

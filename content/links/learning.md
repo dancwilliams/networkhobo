@@ -1,5 +1,5 @@
 ---
-title: "Training"
+title: "Learning"
 date: 2018-01-05
 draft: false
 comments: false
@@ -19,3 +19,6 @@ comments: false
 * [Test Driven Development Courses](https://testdriven.io)
     * Microservices with Docker, Flask, and React
 * [8 Fun Machine Learning Projects for Beginners](https://elitedatascience.com/machine-learning-projects-for-beginners)
+* [Py.CheckiO.org](https://py.checkio.org)
+    * This site has been a blast.  Working through these tasks daily right now!
+    * Check out my [profile](https://py.checkio.org/user/dancwilliams/)!
