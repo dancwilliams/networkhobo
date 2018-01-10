@@ -97,7 +97,7 @@ You can see that most of this is pulled from the Staticman Hugo example.  I did 
 
 I had to add a piece of JavaScript to the reply button to set the value of the ```fields[reply_to]``` hidden input.  This field is set to the ```._id``` value of the current parent comment.  This allows for the fields to be properly populated by Staticman:
 
-_Located [here](hhttps://github.com/dancwilliams/networkhobo/blob/master/static/js/dan_custom.js)_
+Located [here](hhttps://github.com/dancwilliams/networkhobo/blob/master/static/js/dan_custom.js)
 
 ```javascript
 // Added function to change value onclick
