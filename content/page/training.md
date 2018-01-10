@@ -1,5 +1,5 @@
 ---
-title: "Blogs"
+title: "Training"
 date: 2018-01-05
 draft: false
 comments: false
