@@ -134,7 +134,7 @@ Under the trigger `event_data` you will see that the `actionName` corresponds to
 
 ### IMPORTANT NOTE!
 
-When you receive a notification on you iPhone, **do not just tap on it!**  This will open the Home Assistant app and not present your options!
+When you receive a notification on you iPhone, <mark>**do not just tap on it!**</mark>  This will open the Home Assistant app and not present your options!
 
 You can, however, tap notifications on your Apple Watch.  See explanations below:
 
