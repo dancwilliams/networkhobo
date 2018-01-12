@@ -19,12 +19,12 @@ _Below is a list of the technology used at the time of writing:_
 I have two actionable notifications that get used most often:
 
 1. At 6AM I receive a push notification that asks if I am working from home today.
-   * Yes and No options are presented
-   * If I answer yes, it will turn on the AC in my office and set the proper temperature based on the temperature outside.
+   * `Yes` and `No` options are presented
+   * If I answer `Yes`, it will turn on the AC in my office and set the proper temperature based on the temperature outside.
 
 2. On days when my wife and I go into our "_real_" offices we will receive a notification when we leave in the evening and the house is set to away.  This notification asks if you are headed home.
-   * Yes and No options are presented
-   * If yes is selected, it will set the air conditioner to the home setting to cool/heat the house in advance.
+   * `Yes` and `No` options are presented
+   * If `Yes` is selected, it will set the air conditioner to the home setting to cool/heat the house in advance.
 
 We will use my "Are you working from home today?" notification as the example[^1].
 
