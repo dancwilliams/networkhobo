@@ -96,20 +96,20 @@ enableGitInfo = true
 
 [[menu.main]]
     parent = "links"
-    name = "Podcasts"
-    url = "links/podcasts/"
-    weight = 51
-
-[[menu.main]]
-    parent = "links"
     name = "Blogs"
     url = "links/blogs/"
-    weight = 52
+    weight = 51
 
 [[menu.main]]
     parent = "links"
     name = "Learning"
     url = "links/learning/"
+    weight = 52
+
+[[menu.main]]
+    parent = "links"
+    name = "Podcasts"
+    url = "links/podcasts/"
     weight = 53
 
 [[menu.main]]
