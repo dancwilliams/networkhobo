@@ -132,7 +132,15 @@ Here is the automation that is triggered when `Yes` is selected:
 
 Under the trigger `event_data` you will see that the `actionName` corresponds to the `identifier` used in Step Two.  When `Yes` was selected it kicked off the automation to turn on the AC in my office and set the mode based on the outside temperature.  It has worked great!
 
-### IMPORTANT NOTE!
+## IMPORTANT NOTES!
+
+### Creating and Updating iOS Push Notifications:
+
+Each time you create or update an iOS push notification within home assistant you must update oush settings within the iOS app. 
+
+To do this go into the settings (gear icon) within the iOS app and navigate to Notification Settings > Update push notifications.
+
+### Interacting with Push Notifications
 
 When you receive a notification on you iPhone, <mark>**do not just tap on it!**</mark>  This will open the Home Assistant app and not present your options!
 
