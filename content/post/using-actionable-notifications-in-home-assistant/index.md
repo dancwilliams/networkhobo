@@ -142,7 +142,7 @@ To do this go into the settings (gear icon) within the iOS app and navigate to N
 
 ### Interacting with Push Notifications:
 
-When you receive a notification on you iPhone, <mark>**do not just tap on it!**</mark>  This will open the Home Assistant app and not present your options!
+When you receive a notification on you iPhone, **do not just tap on it!**  <mark>This will open the Home Assistant app and not present your options!</mark>
 
 You can, however, tap notifications on your Apple Watch.  See explanations below:
 
