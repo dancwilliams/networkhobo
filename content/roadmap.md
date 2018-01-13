@@ -14,5 +14,5 @@ Below you will find a roadmap for this blog.  I will check tings off as I work t
 - [x] Add e-mail notifications and subscriptions for [Staticman](https://staticman.net/)
 - [x] Add reply to comment for [Staticman](https://staticman.net/)
 - [x] Begin documenting daily/weekly reading for people that ask for that sort fo thing.
-    - 2018-01-03 - Added an interesting links section to the blog to track things like this.
+    2018-01-03 - Added an interesting links section to the blog to track things like this.
 - [ ] Add status page for home lab using backend API and dynamic updating
