@@ -2,9 +2,11 @@
   HUGO_VERSION = "0.33"
 
 [context.deploy-preview]
-  HUGO_VERSION = "0.33"
   command = "hugo --buildDrafts --buildFuture --baseURL /"
+  [context.deploy-preview.environment]
+    HUGO_VERSION = "0.33"
 
 [context.branch-deploy]
-  HUGO_VERSION = "0.33"
   command = "hugo --buildDrafts --buildFuture --baseURL /"
+  [context.branch-deploy.environment]
+    HUGO_VERSION = "0.33"
