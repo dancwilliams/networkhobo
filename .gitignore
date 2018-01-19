@@ -4,3 +4,6 @@
 
 .DS_Store
 themes/.DS_Store
+
+*.assert
+*.snap

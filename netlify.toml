@@ -1,10 +1,10 @@
 [context.production.environment]
-  HUGO_VERSION = "0.32.4"
+  HUGO_VERSION = "0.33"
 
 [context.deploy-preview]
-  HUGO_VERSION = "0.32.4"
+  HUGO_VERSION = "0.33"
   command = "hugo --buildDrafts --buildFuture --baseURL /"
 
 [context.branch-deploy]
-  HUGO_VERSION = "0.32.4"
+  HUGO_VERSION = "0.33"
   command = "hugo --buildDrafts --buildFuture --baseURL /"

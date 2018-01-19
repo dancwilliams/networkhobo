@@ -1,14 +1,17 @@
-{{ $original := .Page.Resources.GetByPrefix (.Get 0) }}
+{{ $images := .Page.Resources.ByType "image" }}
+{{ $original := $images.GetByPrefix (.Get 0) }}
 {{ $command := .Get 1 }}
 {{ $options := .Get 2 }}
+{{ with $original }}
 {{ if eq $command "Fit"}}
-{{ .Scratch.Set "image" ($original.Fit $options) }}
+{{ $.Scratch.Set "image" ($original.Fit $options) }}
 {{ else if eq $command "Resize"}}
-{{ .Scratch.Set "image" ($original.Resize $options) }}
+{{ $.Scratch.Set "image" ($original.Resize $options) }}
 {{ else if eq $command "Fill"}}
-{{ .Scratch.Set "image" ($original.Fill $options) }}
+{{ $.Scratch.Set "image" ($original.Fill $options) }}
 {{ else }}
 {{ errorf "Invalid image processing command: Must be one of Fit, Fill or Resize."}}
 {{ end }}
-{{ $image := .Scratch.Get "image" }}
+{{ $image := $.Scratch.Get "image" }}
 <a href="{{ $original.Permalink }}"><img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}"/></a>
+{{ end }}
