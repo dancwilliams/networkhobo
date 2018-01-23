@@ -1,0 +1,7 @@
+_id: 52945ce0-003d-11e8-ab0e-6f6c72cf2eed
+_parent: 2014-12-05-cisco-6807-vss-issu-upgrade
+reply_to: ad529840-0038-11e8-ab0e-6f6c72cf2eed
+name: Dan
+email: 9162d0c5aca33e7e4c8ec6fc3d44f541
+body: "Christian,\r\n\r\nI have never used this method to perform a downgrade. I do not have access to my 6807 lab any longer so I am not able to test.\r\n\r\nAs far as email notifications, you will receive notifications whenever there are any comments on the post as a whole, not just replies to your comment.\r\n\r\nIf you happen to test the downgrade please let us know how it goes. \r\n\r\nThanks!"
+date: '2018-01-23T13:00:02.100Z'
