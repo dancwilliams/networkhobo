@@ -1,14 +1,22 @@
 <section class="comment_form">
+  {{ $temp := replace .URL "/" "" }}
+  {{ $temp2 := .File.BaseFileName }}
+  {{ if eq .File.BaseFileName "index" }}
+    {{ $.Scratch.Add "post_parent" $temp }}
+  {{ else }}
+    {{ $.Scratch.Add "post_parent" $temp2 }}
+  {{ end }}
+
   <a id="comment-form"></a>
   <h3>Say something</h3>
 
   <form class="post-new-comment" method="POST" action="{{ .Site.Params.staticman_api }}">
     <input type="hidden" name="options[redirect]" value="{{ .Permalink }}#post-submitted">
     <input type="hidden" name="options[redirectError]" value="{{ .Permalink }}#post-error">
-    <input type="hidden" name="options[entryId]" value="{{ .File.BaseFileName }}">
+    <input type="hidden" name="options[entryId]" value="{{ $.Scratch.Get "post_parent" }}">
     <input type="hidden" name="options[slug]" value="{{ .Permalink }}">
     <input type="hidden" name="options[origin]" value="{{ .Permalink }}">
-    <input type="hidden" name="options[parent]" value="{{ .File.BaseFileName }}">
+    <input type="hidden" name="options[parent]" value="{{ $.Scratch.Get "post_parent" }}">
     <input type="hidden" name="fields[reply_to]" value="">
     <input type="hidden" name="options[reCaptcha][siteKey]" value="{{ .Site.Params.recaptcha_siteKey }}">
     <input type="hidden" name="options[reCaptcha][secret]" value="{{ .Site.Params.recaptcha_secret }}">
