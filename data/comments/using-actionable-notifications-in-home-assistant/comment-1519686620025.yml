@@ -1,0 +1,7 @@
+_id: 36dbe270-1b4a-11e8-8aea-5915455504ae
+_parent: using-actionable-notifications-in-home-assistant
+reply_to: 67820430-18a3-11e8-81e7-ad1d9008e648
+name: Dan
+email: 9162d0c5aca33e7e4c8ec6fc3d44f541
+body: "Pierre,\r\n\r\nFirst, I want to thank you for your comment because it uncovered an issue with my static comment system.  Glad to have that fixed now!\r\n\r\nSecond, would you mind sharing your code so we can troubleshoot?  Or, do you have your HA config in GitHub where I can check it out?\r\n\r\nThanks,\r\n\r\nDan"
+date: '2018-02-26T23:10:20.025Z'
