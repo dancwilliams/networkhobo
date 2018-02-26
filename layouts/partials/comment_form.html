@@ -1,5 +1,5 @@
 <section class="comment_form">
-  {{ $temp := replace .URL "/" "" }}
+  {{ $temp := (replace .URL "/" "") | replaceRE `^([1-2][0-9])\d\d(0[1-9]|1[012])(0[1-9]|[12][0-9]|3[01])` "" }}
   {{ $temp2 := .File.BaseFileName }}
   {{ if eq .File.BaseFileName "index" }}
     {{ $.Scratch.Add "post_parent" $temp }}
