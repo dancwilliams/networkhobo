@@ -24,6 +24,7 @@
         <a id="{{ ._id }}" class="btn-info" href="#comment-form" onclick="changeValue('fields[reply_to]', '{{ ._id }}')">Reply to {{ .name }}</a>
       </div>
       {{ partial "comment-replies" (dict "entryId_parent" ($.Scratch.Get "entryId") "SiteDataComments_parent" $.Site.Data.comments "parentId" ._id "parentName" .name "context" .) }}
+      <br class="clearBoth" />
     {{ end }}
   {{ end }}       
 
