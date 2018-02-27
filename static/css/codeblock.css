@@ -8,8 +8,16 @@ pre code.hljs {
   padding: 9.5px;
 }
 
+pre {
+  overflow: auto;
+  word-wrap: normal;
+  white-space: pre;
+}
+
 @media only screen and (min-width: 767px) {
   pre code {
+    overflow: auto;
+    word-wrap: normal;
     white-space: pre;
   }
 }
