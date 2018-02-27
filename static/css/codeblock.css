@@ -8,6 +8,10 @@ pre code.hljs {
   padding: 9.5px;
 }
 
+pre {
+   font-size: 16px;
+   line-height: 1.5em;
+
 @media only screen and (min-width: 768px) {
   pre code {
     white-space: pre;
