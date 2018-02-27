@@ -76,6 +76,8 @@ ios:
 
 And here is the appropriate section fomr `ios_push_categories.yaml`:
 
+**NOTE: The `identifier` must be lower-case!**
+
 ```yaml
 - name: Working From Home
   identifier: 'working_from_home'
