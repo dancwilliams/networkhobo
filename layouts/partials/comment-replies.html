@@ -8,7 +8,7 @@
       {{ .body | markdownify }}
     </div>
     <div class="post-comment-reply-button-reply">
-      <a id="{{ ._id }}" class="btn-info" href="#comment-form" onclick="changeValue('fields[reply_to]', '{{ $.parentId }}')">Reply to {{ .name }}</a>
+      <a id="{{ ._id }}" class="btn-info" href="#comment-form" onclick="changeValue('fields[reply_to]', '{{ $.parentId }}')">Reply to Thread</a>
     </div>
     <div style="clear: both;"></div>
   {{ end }}
