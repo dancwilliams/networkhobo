@@ -32,6 +32,7 @@ enableGitInfo = true
   adsenseAdID = "8021396735"
   UseChroma = true
   readingTime = true
+  socialShare = true
 
 #[[Params.bigimg]]
 #  src = "img/triangle.jpg"
