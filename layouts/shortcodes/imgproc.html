@@ -1,5 +1,5 @@
 {{ $images := .Page.Resources.ByType "image" }}
-{{ $original := $images.GetByPrefix (.Get 0) }}
+{{ $original := .Page.Resources.GetMatch (.Get 0) }}
 {{ $command := .Get 1 }}
 {{ $options := .Get 2 }}
 {{ with $original }}
