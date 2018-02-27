@@ -8,9 +8,8 @@ pre code.hljs {
   padding: 9.5px;
 }
 
-pre {
-  overflow: auto;
-  word-wrap: normal;
+pre code {
+  overflow-wrap: normal;
   white-space: pre;
 }
 
