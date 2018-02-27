@@ -26,12 +26,10 @@
 }
 
 .post-comment-avatar {
-  display: inline-block;
   border-radius: 50%;
 }
 
 .post-comment-avatar-reply {
-  display: inline-block;
   border-radius: 50%;
   margin-left: 4em;
 }
