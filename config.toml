@@ -30,7 +30,6 @@ enableGitInfo = true
   githubPullURL = "https://github.com/dancwilliams/networkhobo/pulls"
   adsensePubID = "pub-8071463113547568" # adsensepublisher ID eg. pub-XXXXXX
   adsenseAdID = "8021396735"
-  UseChroma = true
   readingTime = true
   socialShare = true
 
