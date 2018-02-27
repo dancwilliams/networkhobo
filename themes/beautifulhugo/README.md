@@ -18,46 +18,40 @@ This theme is designed to look great on both large-screen and small-screen (mobi
 
 ### Syntax highlighting
 
-This theme has support for either Hugo's lightning fast Chroma, or both server side and client side highlighting.
+This theme has support for either Hugo's lightning fast Chroma, or both server side and client side highlighting. See [the Hugo docs for more](https://gohugo.io/content-management/syntax-highlighting/).
 
-#### Chroma
+#### Chroma - New server side syntax highlighting
 
 To enable Chroma, add the following to your site parameters:
 
 ```
 pygmentsCodeFences = true
 pygmentsUseClasses = true
-[Params]
-    UseChroma = true
 ```
 
-Then, you can use a different style by running:
+Then, you can generate a different style by running:
 
 ```
-hugo gen chromastyles --style=manni > static/css/syntax.css
+hugo gen chromastyles --style=trac > static/css/syntax.css
 ```
 
-See [the Hugo docs for more](https://gohugo.io/content-management/syntax-highlighting/).
+#### Pygments - Old server side syntax highlighting
 
-#### Server side syntax highlighting
-
-Use the `highlight` shortcode (with Pygments),
-see [the Hugo documentation](http://gohugo.io/extras/highlighting/) for more information.
-
-To use this feature install Pygments (`pip install Pygments`) and add
+To use this feature install Pygments (`pip install Pygments`) and add the following to your site parameters:
 
 ```
-pygmentsUseClasses = true
+pygmentsStyle = "trac"
 pygmentsUseClassic = true
 ```
 
-to your `config.toml`.
+Pygments is mostly compatable with the newer Chroma. It is slower but has some additional theme options. I recommend Chroma over Pygments.
 
-#### Client side syntax highlighting
+#### Highlight.js - Client side syntax highlighting
 
-Use triple backticks ( ``` ) or triple tilde ( ~~~ ) around code blocks.
+[Params]
+    useHLJS = true
 
-Client side highlighting does not require pygments to be installed. This currently is only active if you have not selected Chroma, because they don't play well together.
+Client side highlighting does not require pygments to be installed. This will use `highlight.min.css` instead of `syntax.css` for highlighting (effectively disabling Chroma). Highlight.js has a wider range of support for languages and themes, and an alternative highlighting engine.
 
 ### Disqus support
 
