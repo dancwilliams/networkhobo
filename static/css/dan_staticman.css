@@ -5,17 +5,19 @@
 }
 
 .post-comment {
-  background-color: #eee;
+  background-color: #f7f9fa;
   padding: 10px;
   margin-top: 10px;
-  margin-left: 4em
+  margin-left: 4em;
+  font-size: 16px;
 }
 
 .post-comment-reply {
-  background-color: #eee;
+  background-color: #f7f9fa;
   padding: 10px;
   margin-top: 10px;
-  margin-left: 8em
+  margin-left: 8em;
+  font-size: 16px;
 }
 
 .post-comment-header {
@@ -52,17 +54,14 @@
 
 .post-comment-reply-button {
   margin-top: 10px;
-  margin-left: 4em;
-}
-
-.post-comment-reply-button {
-  margin-top: 10px;
-  margin-left: 4em;
+  float: right;
+  font-size: 16px;
 }
 
 .post-comment-reply-button-reply {
   margin-top: 10px;
-  margin-left: 8em;
+  float: right;
+  font-size: 16px;
 }
 
 .btn {
@@ -71,8 +70,8 @@
   color: white;
   display: inline-block;
   font: inherit;
-  padding: 20px;
-  min-width: 100px;
+  padding: 10px;
+  min-width: 10 0px;
   -webkit-appearance: none;
 }
 
