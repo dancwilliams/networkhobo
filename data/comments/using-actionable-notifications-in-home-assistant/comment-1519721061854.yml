@@ -1,0 +1,7 @@
+_id: 67bf3d60-1b9a-11e8-a0fe-3ffbe97072a6
+_parent: using-actionable-notifications-in-home-assistant
+reply_to: ''
+name: Pierre Scerri
+email: 5bf6b07d74d9c556b6cbb3918ce120e2
+body: "Here is the code:\r\n\r\nConfiguration.yaml:\r\n\r\nios:\r\n  push:\r\n    categories:\r\n      - name: garage_door\r\n        identifier: 'GARAGE_DOOR'\r\n        actions:\r\n          identifier: 'CLOSE_GARAGE'\r\n          title: \"Close Garage Door\"\r\n          authenticationRequired: no\r\n          destructive: no\r\n\r\nAutomations.yaml\r\n\r\n- id: '006'\r\n  alias: Notify ios Garage Door\r\n  initial_state: true\r\n  hide_entity: true\r\n  trigger:\r\n    platform: state\r\n    entity_id: cover.garage\r\n    from: closed\r\n    to: open\r\n  action:\r\n    service: notify.ios_pierres_iphone_x\r\n    data:\r\n      title: Garage door check\r\n      message: Garage Door is Open\r\n      data:\r\n        push:\r\n          badge: 0\r\n          category: GARAGE_DOOR\r\n- id: '007'\r\n  alias: ios app notification action garage\r\n  initial_state: true\r\n  hide_entity: true\r\n  trigger:\r\n    platform: event\r\n    event_type: ios.notification_action_fired\r\n    event_data:\r\n      actionName: CLOSE_GARAGE\r\n  action:\r\n    service: cover.close_cover\r\n    entity_id: cover.garage"
+date: '2018-02-27T08:44:21.853Z'
