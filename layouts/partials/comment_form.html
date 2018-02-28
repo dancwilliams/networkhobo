@@ -10,7 +10,7 @@
   <a id="comment-form"></a>
   <h3>Say something</h3>
 
-  <form class="post-new-comment" method="POST" action="{{ .Site.Params.staticman_api }}">
+  <form class="js-form form" method="POST" action="{{ .Site.Params.staticman_api }}">
     <input type="hidden" name="options[redirect]" value="{{ .Permalink }}#post-submitted">
     <input type="hidden" name="options[redirectError]" value="{{ .Permalink }}#post-error">
     <input type="hidden" name="options[entryId]" value="{{ $.Scratch.Get "post_parent" }}">
@@ -22,15 +22,15 @@
     <input type="hidden" name="options[reCaptcha][secret]" value="{{ .Site.Params.recaptcha_secret }}">
 
     <fieldset>
-      <input name="fields[name]" type="text" class="post-comment-field" placeholder="Your name">
+      <input name="fields[name]" type="text" class="post-comment-field" placeholder="{{ i18n "yourName" }}">
     </fieldset>
 
     <fieldset>
-      <input name="fields[email]" type="email" class="post-comment-field" placeholder="Your email address">
+      <input name="fields[email]" type="email" class="post-comment-field" placeholder="{{ i18n "yourEmail" }}">
     </fieldset>
 
     <fieldset>
-      <textarea name="fields[body]" class="post-comment-field" placeholder="Your message. Feel free to use Markdown." rows="10"></textarea>
+      <textarea name="fields[body]" class="post-comment-field" placeholder="{{ i18n "useMarkdown" }}" rows="10"></textarea>
     </fieldset>
     
     <fieldset>
