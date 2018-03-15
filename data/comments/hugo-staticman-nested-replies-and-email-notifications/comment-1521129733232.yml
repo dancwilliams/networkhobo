@@ -1,0 +1,9 @@
+_id: 395bebd0-286a-11e8-9a76-9d6f26b80e72
+_parent: hugo-staticman-nested-replies-and-email-notifications
+reply_to: 2ab3b3d0-2868-11e8-9a76-9d6f26b80e72
+name: Dan
+email: 9162d0c5aca33e7e4c8ec6fc3d44f541
+body: "Apurva,\r\n\r\nYou should be able to submit a comment without providing an email address. The email address is only used to populate a users Gravatar (if one is available) or provide notifications if the user selects to be notified by email. \r\n\r\nDid you try to submit your comment without providing an email and received an error?  If it is throwing an error I will definitely look into the code. \r\n\r\nThanks!\r\n\r\nDan"
+date: '2018-03-15T16:02:13.231Z'
+tags:
+  - comment-subscription
