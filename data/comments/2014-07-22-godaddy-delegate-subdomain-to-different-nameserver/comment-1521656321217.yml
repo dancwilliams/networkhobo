@@ -1,0 +1,7 @@
+_id: 48365630-2d34-11e8-9f0c-3b52df5f76db
+_parent: 2014-07-22-godaddy-delegate-subdomain-to-different-nameserver
+reply_to: ''
+name: Maurizio Tazzer
+email: 651e451e812e09a849b87747cd36b7e8
+body: "I have been trying to achieve exactly what your post says. I don't want my website (pinion.education hosted in Godaddy) to be affected in any way but I need the subdomain tips.pinion.education not only to point towards my Wordpress hosted blog but to have it assigned to WP's name servers ns1.wordpress.com to ns3 in order to install some plugins.\r\n\r\nYour solution should seem to be the answer even if the people from Godaddy told me it's impossible to do that without removing the NS for my main site. When I try to follow the example above I get the message \"The specified CNAME already exists in the zone.\"\r\n\r\nAny ideas why this would happen?\r\n\r\nRegards"
+date: '2018-03-21T18:18:41.217Z'
