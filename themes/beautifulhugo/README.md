@@ -8,7 +8,7 @@
     $ cd themes
     $ git clone https://github.com/halogenica/beautifulhugo.git beautifulhugo
 
-See [the Hugo documentation](http://gohugo.io/themes/installing/) for more information.
+See [the Hugo documentation](https://gohugo.io/themes/installing/) for more information.
 
 ## Extra Features
 
@@ -47,9 +47,10 @@ pygmentsUseClassic = true
 Pygments is mostly compatable with the newer Chroma. It is slower but has some additional theme options. I recommend Chroma over Pygments.
 
 #### Highlight.js - Client side syntax highlighting
-
+```
 [Params]
     useHLJS = true
+```
 
 Client side highlighting does not require pygments to be installed. This will use `highlight.min.css` instead of `syntax.css` for highlighting (effectively disabling Chroma). Highlight.js has a wider range of support for languages and themes, and an alternative highlighting engine.
 
@@ -101,7 +102,7 @@ comments:
 
 ### Google Analytics
 
-To add Google Analytics, simply sign up to [Google Analytics](http://www.google.com/analytics/) to obtain your Google Tracking ID, and add this tracking ID to the `googleAnalytics` parameter in `config.toml`.
+To add Google Analytics, simply sign up to [Google Analytics](https://www.google.com/analytics/) to obtain your Google Tracking ID, and add this tracking ID to the `googleAnalytics` parameter in `config.toml`.
 
 ### Commit SHA on the footer
 
@@ -122,7 +123,7 @@ See at [xor-gate/xor-gate.org](https://github.com/xor-gate/xor-gate.org) an exam
   
 ## About
 
-This is a port of the Jekyll theme [Beautiful Jekyll](http://deanattali.com/beautiful-jekyll/) by [Dean Attali](http://deanattali.com/aboutme#contact). It supports most of the features of the original theme.
+This is a port of the Jekyll theme [Beautiful Jekyll](https://deanattali.com/beautiful-jekyll/) by [Dean Attali](https://deanattali.com/aboutme#contact). It supports most of the features of the original theme.
 
 ## License
 

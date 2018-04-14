@@ -9,4 +9,4 @@
 [context.branch-deploy]
   command = "hugo --buildDrafts --buildFuture --baseURL /"
   [context.branch-deploy.environment]
-    HUGO_VERSION = "0.37.1"
+    HUGO_VERSION = "0.38.2"
