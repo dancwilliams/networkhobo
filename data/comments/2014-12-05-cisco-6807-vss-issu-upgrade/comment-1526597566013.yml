@@ -1,0 +1,12 @@
+_id: 039a6520-5a25-11e8-98ed-83f0f9f888ac
+_parent: 2014-12-05-cisco-6807-vss-issu-upgrade
+reply_to: ''
+name: Ahmed
+email: ffb14d1e4c8835a59134f70b00e5e28d
+body: "Hi What is the way forward if you are upgrading 6509 with SUP 2T for this path\r\n15.1(2)X versions are not compatible with 15.2(1)X IOS versions. \r\nCisco says these are different trails and do not support ISSU/ e FSU. So I am left with standard upgrade procedure which involves a complete downtime.\r\n\r\nMy Question - Can I upgrade one switch at a time (eg. Standby Switch) in VSS and then do a switchover of Active - Standby and upgrade the other switch? this way will it work with pair running different versions during the process. ?"
+date: '2018-05-17T22:52:46.013Z'
+tags: []
+timestamp: 1526597566
+layout: post
+message: ' '
+commentDate: '2018-05-17T22:52:46.013Z'
