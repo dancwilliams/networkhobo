@@ -1,0 +1,12 @@
+_id: b6278180-61d9-11e8-ab67-c350db075896
+_parent: hugo-staticman-nested-replies-and-email-notifications
+reply_to: ''
+name: Testing
+email: 9ad574806427070b94735f216e9abdc1
+body: 'Hi, I''d love to test this. I can''t figure it out on my site.'
+date: '2018-05-27T18:13:53.000Z'
+tags:
+  - comment-subscription
+timestamp: 1527444833
+layout: post
+message: ' '
