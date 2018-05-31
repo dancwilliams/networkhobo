@@ -1,0 +1,14 @@
+_id: 6d6fe860-6472-11e8-85f3-dd0128460d26
+_parent: 2015-03-21-cisco-dmvpn-phase-3
+reply_to: ''
+name: Vrico
+email: f40045f07bd052597e14b8b7ea352168
+body: >-
+  Your TCP MSS clamping is too high, and your IP MTU is not set. UDP traffic
+  COULD have issues.
+date: '2018-05-31T01:32:06.560Z'
+tags:
+  - comment-subscription
+timestamp: 1527730326
+layout: post
+message: ' '
