@@ -1,0 +1,12 @@
+_id: b1d23100-65d2-11e8-9fc7-8dbac274a5e3
+_parent: hugo-staticman-nested-replies-and-email-notifications
+reply_to: 98b1ddb0-ee4f-11e7-a6b5-bba135a28abe
+name: B
+email: b391d9c08cb412b7ab8b887957c4bae3
+body: WWWW
+date: '2018-06-01T19:33:43.886Z'
+timestamp: 1527881623
+sticky: 'false'
+closed: 'false'
+tags:
+  - comment-subscription
