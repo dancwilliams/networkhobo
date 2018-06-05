@@ -1,0 +1,12 @@
+_id: f2660e60-68a4-11e8-97d3-757a25387548
+_parent: hugo-staticman-nested-replies-and-email-notifications
+reply_to: 98b1ddb0-ee4f-11e7-a6b5-bba135a28abe
+name: Donald
+email: c1e68ec3dd3cc5dad0d017d2930b259c
+body: >-
+  Testing comments notifications in your site as I cannot get notifications to
+  work in donboulton.com.
+date: '2018-06-05T09:43:48.915Z'
+tags:
+  - comment-subscription
+timestamp: 1528191828
