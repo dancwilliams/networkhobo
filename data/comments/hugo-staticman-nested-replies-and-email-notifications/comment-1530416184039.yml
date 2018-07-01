@@ -1,0 +1,10 @@
+_id: ed63c4d0-7cdf-11e8-a81e-6fbf56e435fe
+_parent: hugo-staticman-nested-replies-and-email-notifications
+reply_to: ''
+name: Mooash
+email: 4433a6e7c8a37ddf8449477d266fbffd
+body: >-
+  How did you get email notifications going with staticman? I've got the API key
+  and domain all setup but for some reason they never seem to send. Did you have
+  to do anything special?
+date: '2018-07-01T03:36:24.038Z'
