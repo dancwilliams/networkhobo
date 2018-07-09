@@ -11,7 +11,7 @@ comments:
 
   # When allowedOrigins is defined, only requests sent from one of the domains
   # listed will be accepted.
-  allowedOrigins: ["localhost", "networkhobo.com", "networkhobo.netlify.com"]
+  allowedOrigins: ["networkhobo.com", "networkhobo.netlify.com"]
 
   # (*) REQUIRED
   #
@@ -75,7 +75,7 @@ comments:
   transforms:
     email: md5
 
-reCaptcha:
-  enabled: true
-  siteKey: "6LeRECgUAAAAAP9Xvm5SMVybb_Nnc0Ez7x18AG31"
-  secret: "CZAsXpvGJRrx2ugpNnwAYIcx8nDIdEj2SjJ7IdGAwyVCL4VKa02SaESFJMFGPVPcHlF1theyH64Osq/95ApFvWSGI3PElXUF2BAOByrf+lpcQztdc9czG5ZEXyqOPlQ8Oj08x3bwIT5sfdc0lTm6CSa9KAsgi1NnVDcuccqqY3I="
+  reCaptcha:
+    enabled: true
+    siteKey: "6LeRECgUAAAAAP9Xvm5SMVybb_Nnc0Ez7x18AG31"
+    secret: "lq6nS45xTzhecIoy37drQK/ReeC3AIRyfwzYQvF+wjb+MDMEty37m0NlG9BCuV8MUzQopfakjSRl0kbq97WgKDGmxLpe2DtgQ7XNAscRndnu1gKRKro+qh9OYK6csKEhs4kqPEWgngkGJSC9SNx1FXsg6t3IquMoiSi8Irx2XDk="
