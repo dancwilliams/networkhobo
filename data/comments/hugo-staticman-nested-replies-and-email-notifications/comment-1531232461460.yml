@@ -1,0 +1,7 @@
+_id: 789b6170-844c-11e8-a9e8-ebc0985a686a
+_parent: hugo-staticman-nested-replies-and-email-notifications
+reply_to: ''
+name: Scotty
+email: a6c9f2ddfbc1f1949952ec28f1b77ff7
+body: "# HowNowBrownCow\r\n\r\n<pre><code>\r\n#include <iostream>\r\nint main()\r\n{\r\n  auto x = R\"(Hello world!)\";\r\n  std::cout << x;\r\n}\r\n</code></pre>"
+date: '2018-07-10T14:21:01.459Z'
