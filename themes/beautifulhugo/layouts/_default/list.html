@@ -49,11 +49,11 @@
               </div>
 
               {{ if .Params.tags }}
-                <span class="post-meta">
+                <div class="blog-tags">
                   {{ range .Params.tags }}
-                    #<a href="{{ $.Site.LanguagePrefix | absURL }}/tags/{{ . | urlize }}/">{{ . }}</a>&nbsp;
+                    <a href="{{ $.Site.LanguagePrefix | absURL }}/tags/{{ . | urlize }}/">{{ . }}</a>&nbsp;
                   {{ end }}
-                </span>
+                </div>
               {{ end }}
 
             </article>
