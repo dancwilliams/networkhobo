@@ -35,11 +35,11 @@
               </div>
 
               {{ if .Params.tags }}
-                <span class="post-meta">
-                {{ range .Params.tags }}
-                  #<a href="{{ $.Site.LanguagePrefix | absURL }}/tags/{{ . | urlize }}/">{{ . }}</a>&nbsp;
-                {{ end }}
-                </span>
+                <div class="blog-tags">
+                  {{ range .Params.tags }}
+                    <a href="{{ $.Site.LanguagePrefix | absURL }}/tags/{{ . | urlize }}/">{{ . }}</a>&nbsp;
+                  {{ end }}
+                </div>
               {{ end }}
             </article>
           {{ end }}

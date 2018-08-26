@@ -427,10 +427,18 @@ footer .theme-by {
   margin-bottom: 30px;
 }
 
+.blog-tags:before {
+  content: "Tags: ";
+}
+
 .blog-tags a {
   color: #008AFF;
   text-decoration: none;
   padding: 0px 5px;
+}
+
+.blog-tags a:before {
+  content: "#";
 }
 
 .blog-tags a:hover {
