@@ -5,11 +5,12 @@ draft: false
 comments: false
 ---
 
-![Its Me!](/img/profile.jpg)
+{{< imgproc "images/profile*" Resize "300x" >}}
+
 
 I have been in the networking field for around 15 years now. I have specialized in voice for most of this time but have also done quite a bit in the route/switch & data center arenas as well.
 
-These days you will find me working diligently on various network automation projects and wondering around in the land of OT networking.
+These days you will find me working diligently on various network automation projects and wondering around in the land of OT networking, Python, Elixir, and all sorts of other interesting technologies.
 
 You can find me on LinkedIn by clicking [here](http://www.linkedin.com/in/danielcwilliams)!
 
