@@ -1,0 +1,10 @@
+_id: 4803b090-b925-11e8-8b01-a13c8ab500a2
+_parent: hugo-staticman-nested-replies-and-email-notifications
+reply_to: 98b1ddb0-ee4f-11e7-a6b5-bba135a28abe
+name: Dan
+email: 9162d0c5aca33e7e4c8ec6fc3d44f541
+body: >-
+  No worries! I am about to start working on an update to this using the new
+  features in `Hugo 0.48`. This format still works, but I want to clean up some
+  of the variable activity.
+date: '2018-09-15T20:24:01.233Z'
