@@ -27,7 +27,7 @@
               {{ partial "post_meta.html" . }}
               <div class="post-entry">
                 {{ if .Truncated }}
-                  {{ .Summary }}
+                  {{ if .Params.summary }}{{ .Params.summary }}{{ else }}{{ .Summary }}{{ end }}
                   <a href="{{ .Permalink }}" class="post-read-more">[{{ i18n "readMore" }}]</a>
                 {{ else }}
                   {{ .Content }}
