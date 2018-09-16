@@ -120,7 +120,33 @@ This can be achieved by running the next command prior to calling Hugo:
 ```
   
 See at [xor-gate/xor-gate.org](https://github.com/xor-gate/xor-gate.org) an example of how to add it to a continuous integration system.
-  
+ 
+### Extra shortcodes
+
+There are two extra shortcodes provided (along with the customized figure shortcode):
+
+#### Details
+
+This simply adds the html5 detail attribute, supported on all *modern* browsers. Use it like this:
+
+```
+{{% details "This is the details title (click to expand)" %}}
+This is the content (hidden until clicked).
+{{% /details %}}
+```
+
+#### Split
+
+This adds a two column side-by-side environment (will turn into 1 col for narrow devices):
+
+```
+{{< columns >}}
+This is column 1.
+{{< column >}}
+This is column 2.
+{{< endcolumn >}}
+```
+
 ## About
 
 This is a port of the Jekyll theme [Beautiful Jekyll](https://deanattali.com/beautiful-jekyll/) by [Dean Attali](https://deanattali.com/aboutme#contact). It supports most of the features of the original theme.
