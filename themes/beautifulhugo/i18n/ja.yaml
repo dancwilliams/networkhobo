@@ -38,6 +38,8 @@
 # Navigation
 - id: toggleNavigation
   translation: "メニューを切り替え"
+- id: languageSwitcherLabel
+  translation: "言語"
 - id: gcseLabelShort
   translation: "検索"
 - id: gcseLabelLong

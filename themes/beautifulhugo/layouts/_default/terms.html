@@ -8,8 +8,7 @@
       <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
         {{ range $key, $value := .Data.Terms.ByCount }}
           <div class="panel panel-default">
-            <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapse{{ $value.Name }}" data-parent="#accordion"
-               href="#" aria-expanded="false" aria-controls="collapse{{ $value.Name }}">
+            <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapse{{ $value.Name }}" data-parent="#accordion" aria-expanded="false" aria-controls="collapse{{ $value.Name }}">
                 <div class="panel-heading" role="tab" id="header{{ $value.Name }}">
                   <h4 class="panel-title">
                       {{ $value.Name }}
