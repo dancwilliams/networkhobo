@@ -31,6 +31,9 @@ enableGitInfo = true
   adsenseAdID = "8021396735"
   readingTime = true
   socialShare = true
+  showRelatedPosts = true
+  wordCount = true
+  useHLJS = true
 
 #[[Params.bigimg]]
 #  src = "img/triangle.jpg"
