@@ -63,6 +63,12 @@
 - id: yourWebsite
   translation: "You website"
 
+# Delayed Disqus
+- id: show
+  translation: "ショー"
+- id: comments
+  translation: "コメント" 
 
-
-
+# Related posts
+- id: seeAlso
+  translation: "も参照してください"
