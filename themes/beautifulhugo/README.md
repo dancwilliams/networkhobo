@@ -45,7 +45,7 @@ pygmentsStyle = "trac"
 pygmentsUseClassic = true
 ```
 
-Pygments is mostly compatable with the newer Chroma. It is slower but has some additional theme options. I recommend Chroma over Pygments.
+Pygments is mostly compatable with the newer Chroma. It is slower but has some additional theme options. I recommend Chroma over Pygments. Pygments will use `syntax.css` for highlighting, unless you also set the config `pygmentsUseClasses = false` which will generate the style code directly in the HTML file. 
 
 #### Highlight.js - Client side syntax highlighting
 ```
