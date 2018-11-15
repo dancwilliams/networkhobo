@@ -1,0 +1,7 @@
+_id: ba1fd200-e916-11e8-be76-8d98e2c40b53
+_parent: hugo-staticman-nested-replies-and-email-notifications
+reply_to: ''
+name: Vincent Tam
+email: 4980f828b9588a712cc2013ac10fd13a
+body: "I think the \"In reply to `<name>`\" contains a *logic error*.  When the \"reply to thread button is clicked, the `changeValue` function only sets `reply_to` to `_id` of the head of the thread, and the `parentName` is tied with `parentId`.  In one single thread, there's *only one* head (i.e. `parentId`), but it may have *multiple* participants (i.e. `parentName`).\r\n\r\nNonetheless, I've learnt a lot from your explanations.  Thanks for this great article!"
+date: '2018-11-15T20:40:46.099Z'
