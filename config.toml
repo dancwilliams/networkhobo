@@ -25,7 +25,7 @@ enableGitInfo = true
   gcse = "015770664108612180781:in6ix6y_v9o" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
   recaptcha_siteKey = "6LeRECgUAAAAAP9Xvm5SMVybb_Nnc0Ez7x18AG31"
   recaptcha_secret = "lq6nS45xTzhecIoy37drQK/ReeC3AIRyfwzYQvF+wjb+MDMEty37m0NlG9BCuV8MUzQopfakjSRl0kbq97WgKDGmxLpe2DtgQ7XNAscRndnu1gKRKro+qh9OYK6csKEhs4kqPEWgngkGJSC9SNx1FXsg6t3IquMoiSi8Irx2XDk="
-  staticman_api = "https://api.staticman.net/v2/entry/dancwilliams/networkhobo/master/comments" #Add staticman API URL to enable staticman comments
+  staticman_api = "http://comments.networkhobo.com/v2/entry/dancwilliams/networkhobo/master/comments" #Add staticman API URL to enable staticman comments
   githubPullURL = "https://github.com/dancwilliams/networkhobo/pulls"
   adsensePubID = "pub-8071463113547568" # adsensepublisher ID eg. pub-XXXXXX
   adsenseAdID = "8021396735"
