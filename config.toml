@@ -25,7 +25,7 @@ enableGitInfo = true
   gcse = "015770664108612180781:in6ix6y_v9o" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
   recaptcha_siteKey = "6LeRECgUAAAAAP9Xvm5SMVybb_Nnc0Ez7x18AG31"
   recaptcha_secret = "N2i11yGWP3+51hcoLR+meHTxaaniyZWTLns5d0VA9tzEDThFMD73W3E6AlxCHm2Us/FxC75lW5Y3VAXpJeay3mKu3Lph91SbTBItkQfnI3TdHJOqj5W+x58O8KIvK3VBFWxHF+v4i4PwmVvD/eHGdyIhAO7eKgZ2Ro2hXK6BNtOprSA3vr/EaiBBJuIXRDe+S4XW8nwCkrC4luNmLgUeZoH02N5AfltB0rrG2BcLjIk+RjbFzH9qhlc4RBrGMvhBEBKPwKhF5oNBRetYUBstk3gBf7sS8a/0eF0IfGPTiXI/By0BGLeSH5kecMDw+PlhXMfIvHGVyMPGEpHPG1RKbQ=="
-  staticman_api = "http://comments.networkhobo.com/v2/entry/dancwilliams/networkhobo/master/comments" #Add staticman API URL to enable staticman comments
+  staticman_api = "https://comments.networkhobo.com/v2/entry/dancwilliams/networkhobo/master/comments" #Add staticman API URL to enable staticman comments
   githubPullURL = "https://github.com/dancwilliams/networkhobo/pulls"
   githubIssuesURL = "https://github.com/dancwilliams/networkhobo/issues"
   adsensePubID = "pub-8071463113547568" # adsensepublisher ID eg. pub-XXXXXX
