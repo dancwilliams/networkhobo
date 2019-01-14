@@ -68,7 +68,7 @@ comments:
     # (!) ENCRYPTED
     #
     # Mailgun domain (encrypted)
-    domain: "Ar4sGk1/Mn37FRSqHG2TOSPNh9uU1du1v3lA3ofhOodzIS4Mh4Vki5zdpwyX7ilB7upTt6fPDyL5L66q5O5T4NS1js7HZJz8GiTYeM9GBbQeWh6wnQmKTmaiLNySZKb/ZnhlVfpCXUrqjceIB5vD83VRPb2S+fiXght3riQOXTc="
+    domain: "FRyYNOSk7L3WoWh/GBxTkSm3a06SAspWyhGDY1Wb6llSfoy6VtmmcPn6AB3BtvmwEk7fpyesD6RlImPyK6VmWqid0gl6r2oAFM6ZzMpIHqQd3gHTLLz6cAIDZgPsH1pAr6SsVagffmIx75Je4rDw+24JGcYOgyZk5l5G6t9ZRL4="
   
   # List of transformations to apply to any of the fields supplied. Keys are
   # the name of the field and values are possible transformation types.
