@@ -63,12 +63,12 @@ comments:
     # (!) ENCRYPTED
     #
     # Mailgun API key
-    apiKey: "aREG47uuJqt/kQO3+EqcnHzHqGvqEN/5GfP0MJ09RcI70bFA729FIbSJZ1axiLeD3pssChbzN4I/G7oYFsaLZ4o6ANamko/4l13vv5Ibg43nYoqDpZyUN0D++NLtZDkgti0i/gtn5b5V9a+2+dQKXEljNHsf4qGxcbzabisG2900VJJfcoHG4CBBvOdxnbhURf1rJ8E3wJ0mvOYlSXrg0WLdM9jBPHxTBqYoUNL9QMFBa1gukL8neDTc23Ete8ThkBcKunVIF49MT8ONmZEAaim/pFbtF42A/hknimKtnW4DfI3laqk0wln9iYpJk0o3i5II906hurppYOftxtWu8A=="
+    apiKey: "Dm8MTg9Ngqoq/LagxKqAYe5kTQcpLnm+SveEyiRldqCLOg9fRXthBSs5Yoo/daheUWF4rMDNrQaImLCLP6SCKzTuvXmOoajNOsk+rppIMbyPqGcKcfBDZmgx03tNL33CgrdHVKaxTs+PMVfu6oNvHsNSTXiK66xBP2gSiOLEJ7o="
     
     # (!) ENCRYPTED
     #
     # Mailgun domain (encrypted)
-    domain: "Cq//mP5/IX9qteTeErDTofUb3jRD41ghw7CfiCEAxk8UC40w1Pn5EFZWEV35PXLrwOhywDonFsVZTaoUNVslENH4ddrv3kSxT1lXzV0YAvYtIeNGnQwc6pySbgaBLkXJ35p/DLLMkbQfuwYpswrTCHA2pgIAxq/osERYGJblpiD9lZKlLyhM6GNu1wPsh9gLj/zc6blThZJ+hfDksJUJYFB5lLVobUmGnlWJxFyEw7d6qU0LIyAqXn6QlW8KKmlVdOpz+76zUENFSQuYnxC7Pa8yqPKP84iwALcKGfpPtbpe6Dpu8FcPkUF5UY6tZfw9AcrtiDbAsrJLvN/sROMkXw=="
+    domain: "Ar4sGk1/Mn37FRSqHG2TOSPNh9uU1du1v3lA3ofhOodzIS4Mh4Vki5zdpwyX7ilB7upTt6fPDyL5L66q5O5T4NS1js7HZJz8GiTYeM9GBbQeWh6wnQmKTmaiLNySZKb/ZnhlVfpCXUrqjceIB5vD83VRPb2S+fiXght3riQOXTc="
   
   # List of transformations to apply to any of the fields supplied. Keys are
   # the name of the field and values are possible transformation types.
@@ -78,4 +78,4 @@ comments:
   reCaptcha:
     enabled: true
     siteKey: "6LeRECgUAAAAAP9Xvm5SMVybb_Nnc0Ez7x18AG31"
-    secret: "N2i11yGWP3+51hcoLR+meHTxaaniyZWTLns5d0VA9tzEDThFMD73W3E6AlxCHm2Us/FxC75lW5Y3VAXpJeay3mKu3Lph91SbTBItkQfnI3TdHJOqj5W+x58O8KIvK3VBFWxHF+v4i4PwmVvD/eHGdyIhAO7eKgZ2Ro2hXK6BNtOprSA3vr/EaiBBJuIXRDe+S4XW8nwCkrC4luNmLgUeZoH02N5AfltB0rrG2BcLjIk+RjbFzH9qhlc4RBrGMvhBEBKPwKhF5oNBRetYUBstk3gBf7sS8a/0eF0IfGPTiXI/By0BGLeSH5kecMDw+PlhXMfIvHGVyMPGEpHPG1RKbQ=="
+    secret: "hnXD/lhHy4rng1/1FvZxDSGkciD2cGr2SHFOuB7JzZztUf2LMNr7A5gfpX94ZacUcfT2kMU7sPodXNWPE2CCCHduIi5it+xqIye75/pSS9Nw+rpxT6wm8S5eMLmENj19tvUSMitpERqx5emOSSkTocv4nOIa2DI0eBBUsZ9l+8U="
