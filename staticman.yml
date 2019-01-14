@@ -57,20 +57,18 @@ comments:
   # via email when someone adds a reply or a new comment. This requires an account
   # with Mailgun, which you can get for free at http://mailgun.com.
   notifications:
-    # Enable notifications
-    enabled: true
+    # Enable notifications	    # Enable notifications
+    enabled: true	    enabled: true
+    # (!) ENCRYPTED	    # (!) ENCRYPTED
+    #	    #
+    # Mailgun API key	    # Mailgun API key
+    apiKey: "DTwhq72vijr+9XduScboL74KCZtcCN1ppi5oU+caSG2ONYX13Ue5Gdw2RYUkHXm5Doo2UAc4Z3lMjFYpXMo4RHQjiVRvp0wDwFtxxuXa3pQSbvwHU9Mp16npzrYr5CquN6G4veqrfzXRSmTvNn5eU0G14LwWzB/3QdpTNI5O03Q="	    apiKey: "DTwhq72vijr+9XduScboL74KCZtcCN1ppi5oU+caSG2ONYX13Ue5Gdw2RYUkHXm5Doo2UAc4Z3lMjFYpXMo4RHQjiVRvp0wDwFtxxuXa3pQSbvwHU9Mp16npzrYr5CquN6G4veqrfzXRSmTvNn5eU0G14LwWzB/3QdpTNI5O03Q="
+    # (!) ENCRYPTED	    # (!) ENCRYPTED
+    #	    #
+    # Mailgun domain (encrypted)	    # Mailgun domain (encrypted)
+    domain: "mdIOkw/+PMWnGSCtWUQClhdr2+Sk0TzK6dP+ietiu1wJlJfLvVXAxeKx1bL7uXSbR5712FZGV2XIIqVf/PUfrz6beqbxJnPTUxWTnjuVVJppkl1Rh9dYhZ9Q5OLQjw/xRbBZLmcSLnzYr6E3aZsrNj5qjzuaVsyAOOtAYWpKRic="	    domain: "mdIOkw/+PMWnGSCtWUQClhdr2+Sk0TzK6dP+ietiu1wJlJfLvVXAxeKx1bL7uXSbR5712FZGV2XIIqVf/PUfrz6beqbxJnPTUxWTnjuVVJppkl1Rh9dYhZ9Q5OLQjw/xRbBZLmcSLnzYr6E3aZsrNj5qjzuaVsyAOOtAYWpKRic="  
 
-    # (!) ENCRYPTED
-    #
-    # Mailgun API key
-    apiKey: "aFBHD1Sq7Nol0/wXcEPiQsu24XfMguPyJ0FZhjBJkSpTTdcYtonRWDR6RE1bh4zqIKPKZVk221xvx3XXuZbMVsGXPy61R6kgcti07vXw4C5RpkgrVUKvPkPzwdHaeV8nJqzJf8NVXs9E0vPdFwaqIJ5mHadPFq/KhFTKq4LVaYE="
-    
-    # (!) ENCRYPTED
-    #
-    # Mailgun domain (encrypted)
-    domain: "FRyYNOSk7L3WoWh/GBxTkSm3a06SAspWyhGDY1Wb6llSfoy6VtmmcPn6AB3BtvmwEk7fpyesD6RlImPyK6VmWqid0gl6r2oAFM6ZzMpIHqQd3gHTLLz6cAIDZgPsH1pAr6SsVagffmIx75Je4rDw+24JGcYOgyZk5l5G6t9ZRL4="
-  
-  # List of transformations to apply to any of the fields supplied. Keys are
+# List of transformations to apply to any of the fields supplied. Keys are
   # the name of the field and values are possible transformation types.
   transforms:
     email: md5
