@@ -75,8 +75,8 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
   #telegram = "username"
 
 [[menu.main]]
-    name = "About"
-    url = "about"
+    name = "Personal Blog"
+    url = "https://dancwilliams.com"
     weight = 1
 
 [[menu.main]]
@@ -88,11 +88,6 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
     name = "Categories"
     url = "categories"
     weight = 3
-
-[[menu.main]]
-    name = "Roadmap"
-    url = "roadmap"
-    weight = 4
 
 [[menu.main]]
     name = "Links"
