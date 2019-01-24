@@ -1,0 +1,9 @@
+_id: 9f627d90-2008-11e9-bce8-f7e6e8b1c790
+_parent: hugo-staticman-nested-replies-and-email-notifications
+reply_to: 31e20530-1ff7-11e9-8712-8b5f68a79aee
+name: Dan
+email: 9162d0c5aca33e7e4c8ec6fc3d44f541
+body: >-
+  It may be possible if you use some sort of management framework like Forestry.
+  I have never attempted that. I just use GitHub for it all.
+date: '2019-01-24T18:48:22.052Z'
