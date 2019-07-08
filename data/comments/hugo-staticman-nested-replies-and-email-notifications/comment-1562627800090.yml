@@ -1,0 +1,7 @@
+_id: 7057db30-a1d6-11e9-8305-438dc11ff526
+_parent: hugo-staticman-nested-replies-and-email-notifications
+reply_to: e0e13d80-a189-11e9-b892-27c2eac73748
+name: Dan
+email: 9162d0c5aca33e7e4c8ec6fc3d44f541
+body: "You are likely going to need a later version of `Hugo`.  I know there were some changes in templating in the `0.50` times that required some changes in the code.\r\n\r\nI am going on the assumption you are using Ubuntu...\r\n\r\nIt looks like Ubuntu doesn’t have the latest in the [universe](https://packages.ubuntu.com/search?keywords=hugo) repo.  [Here is a link](https://computingforgeeks.com/how-to-install-hugo-on-ubuntu-18-04-lts/) showing how to install the latest (or other newer) version of Hugo on Ubuntu using the `deb` from the Github repo.\r\n\r\nI hope this helps.  Let me know if you have any other questions, get it working, or run into a new error.  Thanks!"
+date: '2019-07-08T23:16:40.089Z'
