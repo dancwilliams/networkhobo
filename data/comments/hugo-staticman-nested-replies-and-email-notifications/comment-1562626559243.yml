@@ -1,0 +1,7 @@
+_id: 8cc9af30-a1d3-11e9-8305-438dc11ff526
+_parent: hugo-staticman-nested-replies-and-email-notifications
+reply_to: e0e13d80-a189-11e9-b892-27c2eac73748
+name: Xin Zhang
+email: 8dc0f26bcc80769c2e9117e17c12a212
+body: 'Hi, the version is 0.46. If I run sudo apt install hugo, it says It''s newest.'
+date: '2019-07-08T22:55:59.236Z'
