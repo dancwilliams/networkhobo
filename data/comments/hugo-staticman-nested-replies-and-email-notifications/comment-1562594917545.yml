@@ -1,0 +1,7 @@
+_id: e0e13d80-a189-11e9-b892-27c2eac73748
+_parent: hugo-staticman-nested-replies-and-email-notifications
+reply_to: ''
+name: Xin Zhang
+email: 8dc0f26bcc80769c2e9117e17c12a212
+body: "Thank you for your tutorial!\r\n\r\nI got this error when building the site:\r\n```\r\nERROR 2019/07/08 22:03:14 Error while rendering \"page\" in \"blog/\": template: _default/single.html:77:11: executing \"main\" at <partial \"post-commen...>: error calling partial: template: partials/post-comments.html:7:33: executing \"partials/post-comments.html\" at <index $.Site.Data.co...>: error calling index: index of untyped nil\r\nERROR 2019/07/08 22:03:14 Error while rendering \"page\" in \"sci-tech/\": template: _default/single.html:77:11: executing \"main\" at <partial \"post-commen...>: error calling partial: template: partials/post-comments.html:7:33: executing \"partials/post-comments.html\" at <index $.Site.Data.co...>: error calling index: index of untyped nil\r\n```\r\nI don't understand it. I just use the same `post-comments.html` as yours.\r\nCould you help me when you're free?"
+date: '2019-07-08T14:08:37.545Z'
