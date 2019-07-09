@@ -1,0 +1,7 @@
+_id: c884ad90-a1e2-11e9-8305-438dc11ff526
+_parent: hugo-staticman-nested-replies-and-email-notifications
+reply_to: e0e13d80-a189-11e9-b892-27c2eac73748
+name: Xin Zhang
+email: 8dc0f26bcc80769c2e9117e17c12a212
+body: "Thank you! I installed the latest hugo (0.55.6). But still got this error:\r\n```\r\nERROR 2019/07/09 08:41:39 render of \"page\" failed: execute of template failed: template: _default/single.html:70:13: executing \"main\" at <partial \"post-comments\" .>: error calling partial: \"/home/xin/Documents/hugo_blog/new/AllinOne_web/themes/AllinOne/layouts/partials/post-comments.html:7:33\": execute of template failed: template: partials/post-comments.html:7:33: executing \"partials/post-comments.html\" at <index $.Site.Data.comments $entryId>: error calling index: index of untyped nil\r\nTotal in 32 ms\r\nError: Error building site: failed to render pages: render of \"page\" failed: execute of template failed: template: _default/single.html:70:13: executing \"main\" at <partial \"post-comments\" .>: error calling partial: \"/home/xin/Documents/hugo_blog/new/AllinOne_web/themes/AllinOne/layouts/partials/post-comments.html:7:33\": execute of template failed: template: partials/post-comments.html:7:33: executing \"partials/post-comments.html\" at <index $.Site.Data.comments $entryId>: error calling index: index of untyped nil\r\n```\r\nIs that related to my theme? I'm using [AllinOne](https://github.com/orianna-zzo/AllinOne) theme."
+date: '2019-07-09T00:45:02.810Z'
