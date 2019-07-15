@@ -1,0 +1,10 @@
+_id: 63d44360-a723-11e9-b721-3daf964aec70
+_parent: first-test-with-new-drafts-and-shortcuts-automations
+reply_to: 9ad9b680-a712-11e9-b721-3daf964aec70
+name: Dan
+email: 9162d0c5aca33e7e4c8ec6fc3d44f541
+body: >-
+  I hate that you are having a hard time.  I know I am not running the latest
+  version of `BeautifulHugo` not `Hugo` itself.  Maybe I need to update in my
+  `dev` environment to see what new issues are out there.
+date: '2019-07-15T17:10:05.983Z'
