@@ -1,0 +1,7 @@
+_id: 2bcc3ea0-a787-11e9-b6bf-23066150a6f8
+_parent: first-test-with-new-drafts-and-shortcuts-automations
+reply_to: ''
+name: Ritesh Sarraf
+email: 9b7630423d74eb31b6684f3b9239ae43
+body: "One question.\r\n\r\nI have my website running on a separate server with nginx\r\nhttps://www.researchut.com\r\n\r\nMy intent is only to use github/staticman for the comments. So comments should get into the github repository and then I can choose to git pull them to my local repo, act on them, and then finally push to my actual personal git repository which serves the website.\r\n\r\nIs this a correct expectation to have with this setup?\r\nOr does staticman only work when hosting the website on github ?"
+date: '2019-07-16T05:04:22.047Z'
