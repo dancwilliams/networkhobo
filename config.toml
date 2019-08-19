@@ -27,7 +27,7 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
   gcse = "015770664108612180781:in6ix6y_v9o" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
   recaptcha_siteKey = "6LeRECgUAAAAAP9Xvm5SMVybb_Nnc0Ez7x18AG31"
   recaptcha_secret = "hnXD/lhHy4rng1/1FvZxDSGkciD2cGr2SHFOuB7JzZztUf2LMNr7A5gfpX94ZacUcfT2kMU7sPodXNWPE2CCCHduIi5it+xqIye75/pSS9Nw+rpxT6wm8S5eMLmENj19tvUSMitpERqx5emOSSkTocv4nOIa2DI0eBBUsZ9l+8U="
-  # staticman_api = "https://api.staticman.net/v3/entry/github/dancwilliams/networkhobo/master/comments" #Add staticman API URL to enable staticman comments
+  staticman_api = "https://cryptic-island-95373.herokuapp.com/entry/dancwilliams/networkhobo/master/comments" #Add staticman API URL to enable staticman comments
   githubPullURL = "https://github.com/dancwilliams/networkhobo/pulls"
   githubIssuesURL = "https://github.com/dancwilliams/networkhobo/issues"
   adsensePubID = "pub-8071463113547568" # adsensepublisher ID eg. pub-XXXXXX
