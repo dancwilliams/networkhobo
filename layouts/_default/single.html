@@ -16,9 +16,9 @@
         {{ if $.Param "socialShare" }}
             <hr/>
             <section id="social-share">
-              <ul class="list-inline footer-links">
+              <div class="list-inline footer-links">
                 {{ partial "share-links" . }}
-              </ul>
+              </div>
             </section>
         {{ end }}
 
@@ -54,7 +54,7 @@
       {{ if (.Params.comments) | or (and (or (not (isset .Params "comments")) (eq .Params.comments nil)) (and .Site.Params.comments (ne .Type "page"))) }}
         {{ if .Site.DisqusShortname }}
           {{ if .Site.Params.delayDisqus }}
-          <div class="disqus-comments">                  
+          <div class="disqus-comments">
             <button id="show-comments" class="btn btn-default" type="button">{{ i18n "show" }} <span class="disqus-comment-count" data-disqus-url="{{ trim .Permalink "/" }}">{{ i18n "comments" }}</span></button>
             <div id="disqus_thread"></div>
 
@@ -77,7 +77,7 @@
       {{ end }}
 
       <br>
-      
+
       {{ if and (.Site.Params.adsensePubID) (.Site.Params.adsenseAdID)  }}
         <field>
           <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>

@@ -9,4 +9,4 @@
 [context.branch-deploy]
   command = "hugo --minify --buildDrafts --buildFuture --baseURL /"
   [context.branch-deploy.environment]
-    HUGO_VERSION = "0.53"
+    HUGO_VERSION = "0.57.2"
