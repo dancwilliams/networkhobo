@@ -62,11 +62,11 @@ comments:
     # (!) ENCRYPTED
     #
     # Mailgun API key
-    apiKey: "DTwhq72vijr+9XduScboL74KCZtcCN1ppi5oU+caSG2ONYX13Ue5Gdw2RYUkHXm5Doo2UAc4Z3lMjFYpXMo4RHQjiVRvp0wDwFtxxuXa3pQSbvwHU9Mp16npzrYr5CquN6G4veqrfzXRSmTvNn5eU0G14LwWzB/3QdpTNI5O03Q="
+    apiKey: "cW55UJyvVrZxXI/+ohI9afqOKZRz286CNlPxzUr/vFFtDrBc2dt2JpKfd3bsNCd1RvvdlGxDL4+zn259dFXTNl6pfy2qHCN2ygl308PMVhhElx4V0DSlIkqNhTyim4XdOlLp4Cm4UjwUV2BXbu2B1k6VlQdk0+rZp2YZ9MsSSVx2jLf07Mui2IhwgW6TuqmCb0Pn9iOgsJoqJQa3m/2OqkGvb38ExWIcaHIG16TR3Ddupgl/orSCz603z+cgtlYu2dpKuLphhflKk6suGlKXdQufNPHf698treMa2RXmxsaJ49xZnrHm8b9ApuBXUVzwCRz1vexVXB13oTXbznL7Yw=="
     # (!) ENCRYPTED
     #
     # Mailgun domain (encrypted)
-    domain: "mdIOkw/+PMWnGSCtWUQClhdr2+Sk0TzK6dP+ietiu1wJlJfLvVXAxeKx1bL7uXSbR5712FZGV2XIIqVf/PUfrz6beqbxJnPTUxWTnjuVVJppkl1Rh9dYhZ9Q5OLQjw/xRbBZLmcSLnzYr6E3aZsrNj5qjzuaVsyAOOtAYWpKRic="
+    domain: "nNlg5pUsjaJAdeoSgAOM09yrWYdroxY9cI9cf22B94yQLlbBJPIyvOw9uTidS7be3CAcPytFlWoHHpRF8JPmIxdrkNDUXVfHqDPJHjOTPJbrktZlA0CDReN1anhPmoyGmoqQ4lNuQ02oGavD8Ldx8mEoDB6Abhbquiuqcww8cE+dKVwzOy8EymoIqnatRsZ/DI1NEYn3Ly/zhp/+mi34FX80ruCPkb6ILdsXAc1PqUjTYelqGIR8gnLapQHVKAXHv4s1bwOhWDu1Vr1pD8s55KucwS4JN3BfrBOJKni0glxKDweR1du2+CwZ1T7cVX0jZb6igsQEA2W3DFrUbgBCSg=="
 
 # List of transformations to apply to any of the fields supplied. Keys are
   # the name of the field and values are possible transformation types.
@@ -76,4 +76,4 @@ comments:
   reCaptcha:
     enabled: true
     siteKey: "6LeRECgUAAAAAP9Xvm5SMVybb_Nnc0Ez7x18AG31"
-    secret: "hnXD/lhHy4rng1/1FvZxDSGkciD2cGr2SHFOuB7JzZztUf2LMNr7A5gfpX94ZacUcfT2kMU7sPodXNWPE2CCCHduIi5it+xqIye75/pSS9Nw+rpxT6wm8S5eMLmENj19tvUSMitpERqx5emOSSkTocv4nOIa2DI0eBBUsZ9l+8U="
+    secret: "aHBSTK7GigsVhNPXJ0KTbag23epOef3bhRwARZJOwdgdcgOk2vUHU14dA+EAl+xxo4zWsBqP7CadnAkvfEv6bR9KD9NpDhfHeZ497wcsv90Zg9ngcIIYWj7Hex2MmtCDSSVzTZlh4OABbjd3YYfqXcIxMc54NazmQqayOTpHnhjI+cJyN44lSds7yksYJBMqHVaPdbx56NvXctGL93wwytOjGtoZdi2ocFdVA1yGsks21F682IeUU+oCvdjUFPnDJpBbgV+txft07VBHL7n01INn6fTU2SrLh90XNsUO0ZsVTzBqEvjbTJ/YzPbExt8DKKKkZ3Ox5deodgUtK7mL3g=="
