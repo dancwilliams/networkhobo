@@ -1,0 +1,7 @@
+_id: bf3cde60-c28f-11e9-9119-ff307627cadc
+_parent: first-test-with-new-drafts-and-shortcuts-automations
+reply_to: 2bcc3ea0-a787-11e9-b6bf-23066150a6f8
+name: Dan
+email: 9162d0c5aca33e7e4c8ec6fc3d44f541
+body: "I know this is late, but I have been doing a lot of staticman stuff on my end.\r\n\r\nYour description is correct, but there are currently issues with the public Staticman API instance.  See the [update to my staticman post](https://networkhobo.com/2017/12/30/hugo-staticman-nested-replies-and-e-mail-notifications/).  I just got everything up and going again last night for my sites."
+date: '2019-08-19T14:43:45.765Z'
