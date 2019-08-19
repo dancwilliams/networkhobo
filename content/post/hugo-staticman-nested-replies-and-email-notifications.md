@@ -6,6 +6,8 @@ tags: [ "go", "hugo", "staticman", "comments" ]
 categories: [ "hugo", "staticman" ]
 ---
 
+** Update 20190819: The public instance of the Staticman API is broken with no clear line-of-sight on when or if it will be repaired.  Reference issue [#307](https://github.com/eduardoboucas/staticman/issues/307).  I am now running my own Staticman instance in Heroku using the suggestiong from [VincentTam](https://github.com/VincentTam).  I am using the [master branch](https://github.com/eduardoboucas/staticman) and integrating [PR #285](https://github.com/eduardoboucas/staticman/pull/285).  VincentTam did a good write up on all of these things in a few places: [Issue #296](https://github.com/eduardoboucas/staticman/issues/296) & [VincentTam's blog on hosting your own instance of Staticman.](https://vincenttam.gitlab.io/post/2018-09-16-staticman-powered-gitlab-pages/2/).  This all takes some piecing together, so I may write an update post on how I am hosting my instance and link it here. If there are any questions feel free to hit me in the comments.  **
+
 In this post I want to cover the steps I went through to get Staticman nested comments and e-mail notifications working in Hugo.
 
 **Disclaimer: I am new to Hugo, Go Templating, JavaScript, and all the bits and pieces used in this write-up.  I am sure there are more efficient methods to achieve these results.  Please provide any feedback in the comments or feel free to issue a pull request.  Thanks!**
@@ -44,7 +46,7 @@ staticman_api = "https://api.staticman.net/v2/entry/dancwilliams/networkhobo/mas
 
 Then I added some logic to the [```layouts/_default/single.html```](https://github.com/dancwilliams/networkhobo/blob/master/layouts/_default/single.html) file to look for the staticman_api Site.Param, and if existed to add the ```post-comments.html``` partial:
 
-```html 
+```html
 {{ if (.Params.comments) | or (and (or (not (isset .Params "comments")) (eq .Params.comments nil)) (.Site.Params.comments)) }}
   {{ if .Site.DisqusShortname }}
     <div class="disqus-comments">
@@ -81,7 +83,7 @@ I then moved on to the creation of the [```layouts/partials/post-comments.html``
           </div>
       {{ partial "comment-replies" (dict "entryId_parent" $entryId "SiteDataComments_parent" $.Site.Data.comments "parentId" ._id "parentName" .name "context" .) }}
     {{ end }}
-  {{ end }}       
+  {{ end }}
 
 
   {{ if eq ($.Scratch.Get "hasComments") 0 }}
@@ -93,7 +95,7 @@ I then moved on to the creation of the [```layouts/partials/post-comments.html``
 </section>
 ```
 
-You can see that most of this is pulled from the Staticman Hugo example.  I did remove some of the looping and dataset reading that I found to be excessive.  You will also see that I added some logic to only present comments that were not replies and to add a button for replies to those comments.  
+You can see that most of this is pulled from the Staticman Hugo example.  I did remove some of the looping and dataset reading that I found to be excessive.  You will also see that I added some logic to only present comments that were not replies and to add a button for replies to those comments.
 
 I had to add a piece of JavaScript to the reply button to set the value of the ```fields[reply_to]``` hidden input.  This field is set to the ```._id``` value of the current parent comment.  This allows for the fields to be properly populated by Staticman:
 
@@ -193,7 +195,7 @@ After all of the comments and replies for a particular post have been processed,
     <fieldset>
       <textarea name="fields[body]" class="post-comment-field" placeholder="Your message. Feel free to use Markdown." rows="10"></textarea>
     </fieldset>
-    
+
     <fieldset>
       <div class="notify-me">
         <input type="checkbox" id="comment-form-reply" name="options[subscribe]" value="email">
@@ -215,7 +217,7 @@ After all of the comments and replies for a particular post have been processed,
   <script type="text/javascript">
     document.getElementById("submit_button").disabled = true;
   </script>
-  
+
   <script type="text/javascript">
     function enableBtn(){
        document.getElementById("submit_button").disabled = false;
@@ -235,7 +237,7 @@ After all of the comments and replies for a particular post have been processed,
     <h3>OOPS!</h3>
     <p>Your post has not been submitted.  Please return to the page and try again.  Thank You!</p>
     <p><a href="#" class="btn">OK</a></p>
-  </div> 
+  </div>
 
 </section>
 ```
@@ -283,7 +285,7 @@ If the Staticman API call comes back as successful, this dialog is presented.  I
   <h3>OOPS!</h3>
   <p>Your post has not been submitted.  Please return to the page and try again.  Thank You!</p>
   <p><a href="#" class="btn">OK</a></p>
-</div> 
+</div>
 ```
 
 If the Staticman API call reports a failure, this dialog is presented.  The OK button will take the user back to the beginning of the post.
