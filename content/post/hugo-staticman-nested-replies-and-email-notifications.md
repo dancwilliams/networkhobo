@@ -6,13 +6,13 @@ tags: [ "go", "hugo", "staticman", "comments" ]
 categories: [ "hugo", "staticman" ]
 ---
 
-** Update 20190819: The public instance of the Staticman API is broken with no clear line-of-sight on when or if it will be repaired.  Reference issue [#307](https://github.com/eduardoboucas/staticman/issues/307).  I am now running my own Staticman instance in Heroku using the suggestiong from [VincentTam](https://github.com/VincentTam).  I am using the [master branch](https://github.com/eduardoboucas/staticman) and integrating [PR #285](https://github.com/eduardoboucas/staticman/pull/285).  VincentTam did a good write up on all of these things in a few places: [Issue #296](https://github.com/eduardoboucas/staticman/issues/296) & [VincentTam's blog on hosting your own instance of Staticman.](https://vincenttam.gitlab.io/post/2018-09-16-staticman-powered-gitlab-pages/2/).  This all takes some piecing together, so I may write an update post on how I am hosting my instance and link it here. If there are any questions feel free to hit me in the comments.  **
+**Update 20190819: The public instance of the Staticman API is broken with no clear line-of-sight on when or if it will be repaired.  Reference issue [#307](https://github.com/eduardoboucas/staticman/issues/307).  I am now running my own Staticman instance in Heroku using the suggestiong from [VincentTam](https://github.com/VincentTam).  I am using the [master branch](https://github.com/eduardoboucas/staticman) and integrating [PR #285](https://github.com/eduardoboucas/staticman/pull/285).  VincentTam did a good write up on all of these things in a few places: [Issue #296](https://github.com/eduardoboucas/staticman/issues/296) & [VincentTam's blog on hosting your own instance of Staticman.](https://vincenttam.gitlab.io/post/2018-09-16-staticman-powered-gitlab-pages/2/).  This all takes some piecing together, so I may write an update post on how I am hosting my instance and link it here. If there are any questions feel free to hit me in the comments.**
 
 In this post I want to cover the steps I went through to get Staticman nested comments and e-mail notifications working in Hugo.
 
-**Disclaimer: I am new to Hugo, Go Templating, JavaScript, and all the bits and pieces used in this write-up.  I am sure there are more efficient methods to achieve these results.  Please provide any feedback in the comments or feel free to issue a pull request.  Thanks!**
-
 <!--more-->
+
+_Disclaimer: I am new to Hugo, Go Templating, JavaScript, and all the bits and pieces used in this write-up.  I am sure there are more efficient methods to achieve these results.  Please provide any feedback in the comments or feel free to issue a pull request.  Thanks!_
 
 _Below is a list of the technology I use for this blog:_
 
