@@ -1,5 +1,6 @@
 ---
 title: Testing Mermaid JS...
+url: testing-mermaid-js
 date: "2019-08-19T12:10:30-0500"
 draft: true
 tags:

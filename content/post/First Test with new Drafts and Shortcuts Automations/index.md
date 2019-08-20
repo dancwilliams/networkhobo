@@ -1,5 +1,5 @@
 ---
-title: FIrst Test with new Drafts and Shortcuts Automations
+title: First Test with new Drafts and Shortcuts Automations
 date: 2019-05-31T22:48:57-0500
 draft: false
 tags: ["Drafts"]
