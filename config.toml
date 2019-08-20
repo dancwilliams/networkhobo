@@ -27,7 +27,7 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
   gcse = "015770664108612180781:in6ix6y_v9o" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
   recaptcha_siteKey = "6LeRECgUAAAAAP9Xvm5SMVybb_Nnc0Ez7x18AG31"
   recaptcha_secret = "aHBSTK7GigsVhNPXJ0KTbag23epOef3bhRwARZJOwdgdcgOk2vUHU14dA+EAl+xxo4zWsBqP7CadnAkvfEv6bR9KD9NpDhfHeZ497wcsv90Zg9ngcIIYWj7Hex2MmtCDSSVzTZlh4OABbjd3YYfqXcIxMc54NazmQqayOTpHnhjI+cJyN44lSds7yksYJBMqHVaPdbx56NvXctGL93wwytOjGtoZdi2ocFdVA1yGsks21F682IeUU+oCvdjUFPnDJpBbgV+txft07VBHL7n01INn6fTU2SrLh90XNsUO0ZsVTzBqEvjbTJ/YzPbExt8DKKKkZ3Ox5deodgUtK7mL3g=="
-  staticman_api = "https://comments.networkhobo.com/v2/entry/dancwilliams/networkhobo/master/comments" #Add staticman API URL to enable staticman comments
+  staticman_api = "https://comments.networkhobo.com/v3/entry/github/dancwilliams/networkhobo/master/comments" #Add staticman API URL to enable staticman comments
   githubPullURL = "https://github.com/dancwilliams/networkhobo/pulls"
   githubIssuesURL = "https://github.com/dancwilliams/networkhobo/issues"
   adsensePubID = "pub-8071463113547568" # adsensepublisher ID eg. pub-XXXXXX
