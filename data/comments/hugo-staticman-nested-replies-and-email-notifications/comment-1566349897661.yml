@@ -1,0 +1,7 @@
+_id: 9fd8b270-c3b0-11e9-84d2-eb6dd2a3cf8f
+_parent: hugo-staticman-nested-replies-and-email-notifications
+reply_to: e0e13d80-a189-11e9-b892-27c2eac73748
+name: Xin Zhang
+email: 8dc0f26bcc80769c2e9117e17c12a212
+body: "Hi, Dan!\r\n\r\nAs mentioned in this [issue](https://github.com/eduardoboucas/staticman/issues/296#issuecomment-517934771) ,  **staticmanapp** doesn't work anymore. I choose **staticmanlab** instead. But it doesn't support mail notification.\r\n\r\nDo you has any idea?\r\nAre you still using **staticmanapp**?\r\n\r\nRegards,\r\nXin"
+date: '2019-08-21T01:11:37.659Z'
