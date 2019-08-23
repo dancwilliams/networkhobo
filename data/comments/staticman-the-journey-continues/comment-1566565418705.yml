@@ -1,0 +1,7 @@
+_id: 6c5518b0-c5a6-11e9-83a3-abdac2fbc80f
+_parent: staticman-the-journey-continues
+reply_to: ''
+name: Xin Zhang
+email: 8dc0f26bcc80769c2e9117e17c12a212
+body: "How did you encrypt the Mailgun API key and domain name?\r\nAccording to this [tutorial](https://yasoob.me/posts/staticman_comment_notifications_mailgun/) that [link](http://staticman-blog.herokuapp.com/v2/encrypt/) doesn't work any more."
+date: '2019-08-23T13:03:38.704Z'
