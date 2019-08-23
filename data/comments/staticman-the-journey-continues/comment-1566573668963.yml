@@ -1,0 +1,7 @@
+_id: a1de68c0-c5b9-11e9-83a3-abdac2fbc80f
+_parent: staticman-the-journey-continues
+reply_to: 6c5518b0-c5a6-11e9-83a3-abdac2fbc80f
+name: Dan
+email: 9162d0c5aca33e7e4c8ec6fc3d44f541
+body: "Xin,\r\n\r\nI just tried it and it worked for me.  Here is the link I sent in my browser:\r\n\r\n`http://staticman-blog.herokuapp.com/v2/encrypt/test_data_to_encrypt`\r\n\r\nAnd here I received the encrypted string that was returned in the browser:\r\n\r\n`SnyVZNWY85q5pd6Wnoy8GykK13ZoAU2nZ/xJMZJVB5i7/j274a0yQoTG4QxzC4P1rGpUDtwLuKQ8JFpY9hKU56QlDayoxj7eGVlPu/imz/FDvcFQtIPqxQcUfDOIWFBFtGe9n7jjLPwmlNpieFxL72l7EUbDHJitGJiPkFt1OlqOmtau9tWPP8nhCFTh9jaNLek3YCDSG+gT3Dw4UVaZqLWjlsvm4lCH/KecDCjxZH4kfuCEH/4ETNVvU6ASzRalRrcET4SFfG8QRIQ8iKg0VOh/ezZnY3IrXB4v80avpuJf/l80kNaa6cfGfRuslIONM7DvzTt9QDLMh5waZ2d34w==`\r\n\r\nIf you are still having problems we can look into it further."
+date: '2019-08-23T15:21:08.959Z'
