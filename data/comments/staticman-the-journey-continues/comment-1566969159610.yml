@@ -1,0 +1,7 @@
+_id: 74b7e1e0-c952-11e9-8338-8babcdf4b92b
+_parent: staticman-the-journey-continues
+reply_to: 6c5518b0-c5a6-11e9-83a3-abdac2fbc80f
+name: Xin Zhang
+email: 8dc0f26bcc80769c2e9117e17c12a212
+body: "Now, the comment system works now. But, I can't get the notification.\r\nHere're some information:\r\n\r\n1. [staticman.yml](https://github.com/zxdawn/zxdawn.github.io/blob/source/staticman.yml)\r\n2. [config.toml](https://github.com/zxdawn/zxdawn.github.io/blob/source/config.toml)\r\n3. I can't figure out any errors with these two files. So, maybe it's related to the encrypted codes. I add the API key (from the 'Settings - Details - Private API key' at the side panel of mailgun) and  domain name (from the 'Sending - Domains') by adding them to the end of `http://dreambooker-staticman.herokuapp.com/v2/encrypt/`.\r\n\r\nIs there anything worng?"
+date: '2019-08-28T05:12:39.596Z'
