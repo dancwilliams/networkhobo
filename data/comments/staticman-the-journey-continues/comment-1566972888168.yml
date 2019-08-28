@@ -1,0 +1,7 @@
+_id: 2319efa0-c95b-11e9-8338-8babcdf4b92b
+_parent: staticman-the-journey-continues
+reply_to: ''
+name: Xin Zhang
+email: 8dc0f26bcc80769c2e9117e17c12a212
+body: "BTW, sometimes when I add notifications to `staticman.yml`, I would get the commit error when comment.\r\nHere're codes:\r\n```\r\n  # Notification settings. When enabled, users can choose to receive notifications\r\n  # via email when someone adds a reply or a new comment. This requires an account\r\n  # with Mailgun, which you can get for free at http://mailgun.com.\r\n  notifications:\r\n    # Enable notifications\r\n    enabled: true \r\n    # (!) ENCRYPTED\r\n    #\r\n    # Mailgun API key\r\n    apikey: \"L+YWcagHChYeXNAoo4FfGowImk3vffKqSV1JCQahWxehBZYvCU4blH5aK7WxL9FKnfBzkOpZAErWWqOJlTjxaF1dY2iSvhUhD4WunZMdgTOfZUrGNiE/Ev9xGaR432HHsOLn4pf9zkCF4qDbdR5A24t5pJsi4PC0TX2GyXjkyRDQAqkt91F5w/LknXRI0f7zbP3O8cxJnX5BrN+H5MiQaF+LZLYA6qy1Wi8/PKm2ZhYiLHHOUuXq0yRU1YEp3iXy/UDWIcUedNnnL3pGuJYxNCwsrr4A9lERiqDRT9RmOR+6SlanygLmlkRRR6y74x7T4j48KKLn5AC5gBw4P2yHDg==\"\r\n    # (!) ENCRYPTED\r\n    #\r\n    # Mailgun domain (encrypted)\r\n    domain: \"EaD+MUdSifQARd9Q6rg+MA5/tGRUdIKM15nwk0d5fWZlsdsIGHt01Ceplu5gxFCk1Gsq//oquZ2d/16xbwC/hG6ncRsiFca3xdkasmamiwwL3ibl1eVd1EaLxSYHQKDkCi4ta5VcER1CjFrz7shEQrU+B6lOnbcBSWDnunmIwb1cyNxpTcRQ+pmPQV7//hpNDYwu+Nih32rx5gSGmIMaoqJSAgfm0g/IUqvf+mvF7JSNHbIeY6xnnwod8sxG/nA3v3X/P97OZuM28/PFMEKSXbt3mBgks+KFunW765Sxppr7slfZHWBEqSBwU98BOT/oBggK5w4yjZHT6ag/jM9S+w==\"\r\n```"
+date: '2019-08-28T06:14:48.166Z'
