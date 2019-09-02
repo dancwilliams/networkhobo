@@ -13,8 +13,6 @@
 
 # Hugo default output directory
 /public
-/resources
-!resources/_gen
 
 .DS_Store
 themes/.DS_Store
