@@ -14,6 +14,6 @@ I just spent the last day putting together some Drafts actions and iOS Shortcuts
 
 Image test:
 
-{{< img arc="images/Test_1*" >}}
+{{< img src="images/Test_1*" >}}
 
-{{< imgproc "images/Test_2*" Resize "300x" >}}
+{{< img src="images/Test_2*" >}}
