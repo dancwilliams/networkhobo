@@ -154,35 +154,35 @@ You can, however, tap notifications on your Apple Watch.  See explanations below
 
     * Your received notification will look like this:
 
-        {{< imgproc "images/notification_while_locked*" Resize "400x" >}}
+        {{< img src="images/notification_while_locked*" >}}
 
     * Swipe left on the notification and tap "View":
 
-        {{< imgproc "images/notification_swipe_left*" Resize "400x" >}}
+        {{< img src="images/notification_swipe_left*" >}}
 
     * You will then be presented with your options:
 
-        {{< imgproc "images/locked_notification_options*" Resize "400x" >}}
+        {{< img src="images/locked_notification_options*" Resize "400x" >}}
 
 * **While phone is unlocked**:
 
     * Your received notification will look like this:
 
-        {{< imgproc "images/notification_while_using*" Resize "400x" >}}
+        {{< img src="images/notification_while_using*" >}}
 
     * Swipe down on the notification and you will be presented with your options:
 
-        {{< imgproc "images/unlocked_notification_options*" Resize "400x" >}}
+        {{< img src="images/unlocked_notification_options*" >}}
 
 #### On Apple Watch:
 
 * Your received notification will look like this:
 
-  {{< imgproc "images/watch_notification*" Resize "300x" >}}
+  {{< img src="images/watch_notification*" >}}
 
 * Tap the notification to receive your options:
 
-  {{< imgproc "images/watch_tap*" Resize "300x" >}}
+  {{< img src="images/watch_tap*" >}}
 
 ### Summary
 
