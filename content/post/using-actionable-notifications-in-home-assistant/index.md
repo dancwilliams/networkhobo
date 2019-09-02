@@ -162,7 +162,7 @@ You can, however, tap notifications on your Apple Watch.  See explanations below
 
     * You will then be presented with your options:
 
-        {{< img src="images/locked_notification_options*" Resize "400x" >}}
+        {{< img src="images/locked_notification_options*" >}}
 
 * **While phone is unlocked**:
 
