@@ -2,7 +2,7 @@
 title: "Hugo + Staticman: Nested Replies and E-mail Notifications"
 date: "2017-12-30T20:47:00-06:00"
 draft: false
-url: "hugo-staticman-nested-replies-and-e-mail-notifications"
+url: "hugo-staticman-nested-replies-and-email-notifications"
 aliases:
  - 2017/12/30/hugo-staticman-nested-replies-and-e-mail-notifications
  - 2017/12/30/hugo---staticman-nested-replies-and-e-mail-notifications
