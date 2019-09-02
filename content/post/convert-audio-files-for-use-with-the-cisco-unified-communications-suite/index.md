@@ -35,7 +35,7 @@ I like to use the [Switch application by NCH Software](http://www.nch.com.au/swi
 
 Also here is a quick screen shot of the settings for the WAV conversion so it will be in the format Cisco likes! I know we have all run into this especially with things like music on hold… 
 
-[![Audio_Conversion](/img/audio_canversion.png?w=300)](/img/audio_canversion.png)
+{{< img src="images/audio_conversion.png" alt="audio conversion settings" >}}
 
 ### Conclusion:
 
