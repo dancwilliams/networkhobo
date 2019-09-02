@@ -46,7 +46,7 @@ Since we were planning to add more FireTVs to the home I decided to:
 
 To be sure I grabbed the proper devices each time, and to prevent myself from having to configure static IPs on my devices, I decided to use static DHCP reservations. Luckily static IP reservations are very easy in pfSense. I went to Status &gt; DHCP Leases and found my FireTV. I then select the white background plus sign:
 
-<a href="/img/dhcp_button.png"><img class="aligncenter size-full wp-image-216" src="/img/dhcp_button.png" alt="dhcp_button" width="24" height="22" /></a>
+{{< img src="images/dhcp_button.png" >}}
 
 This will take you to the "Static DHCP Mapping on LAN" page. Here you will fill out all the information required for your environment. The only requirement is IP Address. The rest of the fields will accept the default settings from your DHCP configuration.
 
@@ -60,7 +60,7 @@ Now that we have our devices statically addressed and in an alias group we move 
 
 To configure a limiter is pfSense go to Firewall &gt; Traffic Shaper &gt; Limiters and select "+ New Limiter". Below I have a screenshot of my AmazonTV_Download Limiter:
 
-<a href="/img/download_limiter.png"><img class="aligncenter size-full wp-image-217" src="/img/download_limiter.png" alt="download_limiter" width="696" height="430" /></a>
+{{< img src="images/download_limiter.png" >}}
 
 There are a lot of other fields available, but these are the basic ones that need to be filled out. I also created another limiter named AmazonTV_Upload. This one is set to 2 Mbit/s. I could probably lower that, since my FireTV shouldn't be uploading anything to the Internet...
 
@@ -76,9 +76,9 @@ I have included a screenshot of my Amazon FireTV rule below. You will see that I
 
 I like to pretend I am standing on the firewall looking at the device. So, the "In" pipe is where you put your upload rule and the "Out" pipe is where you put your download rule. They have added some language to explain this in the section.
 
-<a href="/img/firewall_rule_1.png"><img class="aligncenter size-full wp-image-218" src="/img/firewall_rule_1.png" alt="firewall_rule_1" width="696" height="397" /></a>
+{{< img src="images/firewall_rule_1.png" >}}
 
-<a href="/img/firewall_rule_2.png"><img class="aligncenter size-full wp-image-219" src="/img/firewall_rule_2.png" alt="firewall_rule_2" width="696" height="90" /></a>
+{{< img src="images/firewall_rule_2.png" >}}
 
 Once the rule is saved and applied all you need to do is power cycle your FireTV so it will pick up the new IP reservation and then everything should start working.
 
@@ -86,7 +86,7 @@ Once the rule is saved and applied all you need to do is power cycle your FireTV
 
 To monitor your limiters go to Diagnostics &gt; Limiter Info. Here you will see the real time data pertaining to the usage of your configured limiters. I have included the output from mine below as an example:
 
-<a href="/img/limiter_diagnostics.png"><img class="aligncenter size-full wp-image-220" src="/img/limiter_diagnostics.png" alt="limiter_diagnostics" width="648" height="298" /></a>
+{{< img src="images/limiter_diagnostics.png" >}}
 
 ## Final Thoughts ##
 
