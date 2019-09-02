@@ -13,11 +13,11 @@ url: "2014/07/22/godaddy-delegate-subdomain-to-different-nameserver"
 
 <!--more-->
 
-[![5](/img/5.png?w=300)](/img/5.png)
+{{< img src="images/5.png" alt="add fqdn initial pointer" >}}
 
 6.  If you do not have a FQDN for your nameserver you will want to create an A record pointing to its IP:
 
-[![6](/img/6.png?w=300)](/img/6.png)
+{{< img src="images/6.png" alt="add pointer to dns server" >}}
 
 ### THANKS!
 
