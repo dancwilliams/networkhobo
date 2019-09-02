@@ -22,27 +22,31 @@ The equipment I used to lab this solution:
 
 First we will go through the steps to configure the RADIUS server on Windows so we have access to Active Directory for authentication. You must first ensure the “Network Policy and Access Services” role is installed on the server. Once this role is installed we will go into NPS (Local) > RADIUS Clients and Servers > RADIUS Clients. Here will will configure our router as a RADIUS Client. Be sure to make note of the key you specify here as you will need it when configuring the RADIUS server on the router.
 
-[![Add RADIUS Client 1](/img/add-radius-client-1.png)](/img/add-radius-client-1.png)
+{{< img src="images/add-radius-client-1.png" >}}
+ 
+ <br>
 
-[![RADIUS Client Config 1](/img/radius-client-config-1.png)](/img/radius-client-config-1.png)
+{{< img src="images/radius-client-config-1.png" >}}
 
-[![RADIUS Client Config 2](/img/radius-client-config-2.png)](/img/radius-client-config-2.png)
+<br>
+
+{{< img src="images/radius-client-config-2.png" >}}
 
 Once our RADIUS client is configured we will move on to configuring the Network Policies in NPS (Local) > Policies > Network Policies and clicking NEW under Actions.
 
-[![RADIUS Policy 1](/img/radius-policy-1.png)](/img/radius-policy-1.png)
+{{< img src="images/radius-policy-1.png" >}}
 
 Under the Conditions Tab you will want to add a Windows Group that contains your users that are allowed VPN access and a NAS IPv4 Address to specify the requesting router.
 
-[![RADIUS Policy 2](/img/radius-policy-2.png)](/img/radius-policy-2.png)
+{{< img src="images/radius-policy-2.png" >}}
 
 Under the Constraints tab you will only select Unencrypted Authentication (PAP, SPAP).
 
-[![RADIUS Policy 3](/img/radius-policy-3.png)](/img/radius-policy-3.png)
+{{< img src="images/radius-policy-3.png" >}}
 
 The Settings tab can be left at default. Make sure that you move your new policy to the top of the list!
 
-[![RADIUS Policy 4](/img/radius-policy-4.png)](/img/radius-policy-4.png)
+{{< img src="images/radius-policy-4.png" >}}
 
 Now that we have the Windows Server piece configured we can move on to the configuration of the router. I have included the main configuration blocks below. Be sure to bind radius requests to the interface with the IP you specified in the Windows Server configuration or else requests may fail. Depending on the environment some people choose to use a loopback address for this. 
 
@@ -95,9 +99,11 @@ Once you have your RADIUS server and additional aaa config in place you can test
 
 Next you can navigate to your SSL VPN site and attempt to log in. Everthing should be good to go if you have followed the steps above.
 
-[![VPN LOGIN](/img/vpn-login.png)](/img/vpn-login.png)
+{{< img src="images/vpn-login.png" >}}
 
-[![VPN LOGIN 2](/img/vpn-login-2.png)](/img/vpn-login-2.png)
+<br>
+
+{{< img src="images/vpn-login-2.png" >}}
 
 ## Conclusion:
 
