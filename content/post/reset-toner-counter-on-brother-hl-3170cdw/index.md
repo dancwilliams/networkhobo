@@ -1,10 +1,13 @@
 ---
-title: "Reset Toner Counter on Brother HL-3170CDW"
-date: 2015-04-15
+title: Reset Toner Counter on Brother HL-3170CDW
+date: "2015-04-15"
 draft: false
 url: "2015/04/15/reset-toner-counter-on-brother-hl-3170cdw"
-tags: [ "brother", "printer" ]
-categories: [ "troubleshooting" ]
+tags:
+  - brother
+  - printer
+categories:
+  - troubleshooting
 ---
 
 ### Quick Note ###

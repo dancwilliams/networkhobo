@@ -1,10 +1,16 @@
 ---
-title: "Cisco VIRL, pfSense, and Routed Management Networks"
-date: 2017-06-15
+title: Cisco VIRL, pfSense, and Routed Management Networks
+date: "2017-06-15"
 draft: false
 url: "cisco-virl-pfsense-and-routed-management-networks-7239d664d050"
-tags: [ "Cisco", "VIRL", "management", "VMWare", "ESXi" ]
-categories: [ "Cisco VIRL" ]
+tags:
+  - Cisco
+  - VIRL
+  - management
+  - VMWare
+  - ESXi
+categories:
+  - Cisco VIRL
 ---
 
 In this post I hope to quickly cover how I use pfSense to provide easily reachable management networks for simulations within VIRL.

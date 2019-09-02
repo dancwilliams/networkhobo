@@ -18,7 +18,7 @@ This post will lay out how to setup aut logging for all sessions globally.  This
 
 Open **SecureCRT** > **Options** > **Global Options** > **General** > ****Default Session > Select the **Edit Default Settings** button:
 
-[![SecureCRT Global Option](/img/securecrt-auto-logging-how-to/secure-crt-screecap.png)](/img/securecrt-auto-logging-how-to/secure-crt-screecap.png)
+{{< img src="images/secure-crt-screecap.png" >}}
 
 Log File Name: `C:\Users\{{ YOUR USERNAME }}\{{ YOUR FOLDER LOCATION }}\%Y\%Y-%M\%Y-%M-%D\%S (%H) -- %Y-%M-%D_%h-%m.txt`
 

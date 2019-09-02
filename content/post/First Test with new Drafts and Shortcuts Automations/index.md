@@ -2,8 +2,10 @@
 title: First Test with new Drafts and Shortcuts Automations
 date: 2019-05-31T22:48:57-0500
 draft: false
-tags: ["Drafts"]
-categories: ["Drafts"]
+tags:
+  - Drafts
+categories:
+  - Drafts
 ---
 
 # ...Let's See if This Works!
