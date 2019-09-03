@@ -1,9 +1,16 @@
 ---
-title: "SecureCRT Auto Logging How-To"
-date: 2018-01-10T09:41:43-06:00
+title: SecureCRT Auto Logging How-To
+date: "2018-01-10T09:41:43-06:00"
+url: "securecrt-auto-logging-how-to"
+aliases:
+  - 2018/01/10/securecrt-auto-logging-how-to
 draft: false
-tags: [ "SecureCRT", "logging", "network" ]
-categories: [ "SecureCRT" ]
+tags:
+  - SecureCRT
+  - logging
+  - network
+categories:
+  - SecureCRT
 ---
 
 This is a quick post to document the process I use to auto-log [SecureCRT](https://www.vandyke.com/products/securecrt/) sessions.
