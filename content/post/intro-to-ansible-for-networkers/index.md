@@ -1,6 +1,9 @@
 ---
 title: Intro to Ansible for Networkers
 date: "2017-12-14"
+url: "intro-to-ansible-for-networkers"
+aliases:
+  - 2017/12/14/intro-to-ansible-for-networkers
 draft: false
 tags:
   - ansible
