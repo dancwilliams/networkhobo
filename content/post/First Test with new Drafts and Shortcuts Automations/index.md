@@ -2,6 +2,9 @@
 title: First Test with new Drafts and Shortcuts Automations
 date: 2019-05-31T22:48:57-0500
 draft: false
+url: first-test-with-new-drafts-and-shortcuts-automations
+aliases:
+  - 2019/05/31/first-test-with-new-drafts-and-shortcuts-automations
 tags:
   - Drafts
 categories:
