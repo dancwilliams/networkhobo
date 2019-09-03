@@ -2,7 +2,9 @@
 title: Cisco DMVPN Phase 3
 date: "2015-03-21"
 draft: false
-url: "2015/03/21/cisco-dmvpn-phase-3"
+url: "cisco-dmvpn-phase-3"
+aliases:
+  - 2015/03/21/cisco-dmvpn-phase-3
 tags:
   - remote access
   - Cisco
