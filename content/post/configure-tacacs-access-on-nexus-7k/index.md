@@ -4,7 +4,7 @@ date: "2014-01-23"
 draft: false
 url: "configure-tacacs-access-on-nexus-7k"
 aliases:
-  - 2014/01/23/cconfigure-tacacs-access-on-nexus-7k
+  - 2014/01/23/configure-tacacs-access-on-nexus-7k
 alias: 
 tags:
   - 7K
