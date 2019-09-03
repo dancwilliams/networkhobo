@@ -1,6 +1,9 @@
 ---
 title: Intel NUC Memory and BIOS Gotcha
 date: "2018-01-10T09:33:42-06:00"
+url: "intel-nuc-memory-and-bios-gotcha"
+aliases:
+  - 2018/01/10/intel-nuc-memory-and-bios-gotcha
 draft: false
 tags:
   - intel
