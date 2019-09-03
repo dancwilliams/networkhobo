@@ -1,6 +1,9 @@
 ---
 title: Using Actionable Notifications in Home Assistant
 date: "2018-01-11T19:02:48-06:00"
+url: "using-actionable-notifications-in-home-assistant"
+aliases:
+  - 2018/01/11/using-actionable-notifications-in-home-assistant
 draft: false
 tags:
   - home assistant
