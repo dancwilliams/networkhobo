@@ -1,8 +1,10 @@
 ---
 title: "GoDaddy: Delegate Subdomain to Different Nameserver"
-date: 2014-07-22
+date: "2014-07-22"
 draft: false
-url: "2014/07/22/godaddy-delegate-subdomain-to-different-nameserver"
+url: "godaddy-delegate-subdomain-to-different-nameserver"
+aliases:
+  - 2014/07/22/godaddy-delegate-subdomain-to-different-nameserver
 ---
 
 1.  Access your GoDaddy domain manager
