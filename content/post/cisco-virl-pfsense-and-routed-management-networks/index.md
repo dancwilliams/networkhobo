@@ -2,7 +2,9 @@
 title: Cisco VIRL, pfSense, and Routed Management Networks
 date: "2017-06-15"
 draft: false
-url: "cisco-virl-pfsense-and-routed-management-networks-7239d664d050"
+url: "cisco-virl-pfsense-and-routed-management-networks"
+aliases:
+  - cisco-virl-pfsense-and-routed-management-networks-7239d664d050/
 tags:
   - Cisco
   - VIRL
