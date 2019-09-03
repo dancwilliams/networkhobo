@@ -20,5 +20,5 @@ I just spent the last day putting together some Drafts actions and iOS Shortcuts
 Image test:
 
 {{< img src="images/Test_1*" alt="picture of trees" >}}
-
+<br>
 {{< img src="images/Test_2*" alt="picture of baby and trees" >}}
