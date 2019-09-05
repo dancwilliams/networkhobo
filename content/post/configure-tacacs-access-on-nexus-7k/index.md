@@ -2,9 +2,9 @@
 title: Configure TACACS+ Access on Nexus 7K
 date: "2014-01-23"
 draft: false
-url: "2014/01/23/configure-tacacs-access-on-nexus-7k"
+url: "configure-tacacs-access-on-nexus-7k"
 aliases:
-  - /2014/01/23/cconfigure-tacacs-access-on-nexus-7k
+  - 2014/01/23/configure-tacacs-access-on-nexus-7k
 alias: 
 tags:
   - 7K

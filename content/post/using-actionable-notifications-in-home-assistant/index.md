@@ -1,9 +1,16 @@
 ---
-title: "Using Actionable Notifications in Home Assistant"
-date: 2018-01-11T19:02:48-06:00
+title: Using Actionable Notifications in Home Assistant
+date: "2018-01-11T19:02:48-06:00"
+url: "using-actionable-notifications-in-home-assistant"
+aliases:
+  - 2018/01/11/using-actionable-notifications-in-home-assistant
 draft: false
-tags: [ "home assistant", "iOS", "notifications" ]
-categories: [ "home assistant" ]
+tags:
+  - home assistant
+  - iOS
+  - notifications
+categories:
+  - home assistant
 ---
 
 In this post I will cover how I use [actionable notifications](https://home-assistant.io/docs/ecosystem/ios/notifications/actions/) within [Home Assistant](https://home-assistant.io).  Using [push notifications](https://home-assistant.io/docs/ecosystem/ios/notifications/) with the [Home Assistant iOS App](https://home-assistant.io/docs/ecosystem/ios/) you can setup some really cool triggers within the system.

@@ -1,10 +1,21 @@
 ---
-title: "Cisco 6807 VSS ISSU Upgrade"
-date: 2014-12-05
+title: Cisco 6807 VSS ISSU Upgrade
+date: "2014-12-05"
 draft: false
-url: "2014/12/05/cisco-6807-vss-issu-upgrade"
-tags: [ "Catalyst", "Cisco", "data center", "routing", "switching", "upgrade" ]
-categories: [ "data center", "routing", "switching" ]
+url: "cisco-6807-vss-issu-upgrade"
+aliases:
+  - 2014/12/05/cisco-6807-vss-issu-upgrade
+tags:
+  - Catalyst
+  - Cisco
+  - data center
+  - routing
+  - switching
+  - upgrade
+categories:
+  - data center
+  - routing
+  - switching
 ---
 
 ### The Request:

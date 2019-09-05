@@ -2,7 +2,9 @@
 title: Convert Audio Files for use with the Cisco Unified Communications Suite
 date: "2014-01-28"
 draft: false
-url: "2014/01/28/convert-audio-files-for-use-with-the-cisco-unified-communications-suite"
+url: "convert-audio-files-for-use-with-the-cisco-unified-communications-suite"
+aliases:
+  - 2014/01/28/convert-audio-files-for-use-with-the-cisco-unified-communications-suite
 tags: 
   - callmanager
   - cisco
