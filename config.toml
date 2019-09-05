@@ -14,7 +14,7 @@ rssLimit = 20 # Maximum number of items in the RSS feed.
 copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License." # This message is only used by the RSS template.
 
 [permalinks]
-  post = "/:year/:month/:day/:title/"
+  post = "/:title/"
 
 [Params]
   subtitle = "Thumbin' my way down the information superhighway..."
