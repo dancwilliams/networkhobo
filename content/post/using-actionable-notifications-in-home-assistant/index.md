@@ -39,7 +39,7 @@ We will use my "Are you working from home today?" notification as the example[^1
 
 I have an automation configured to send me a message asking if I am working from home on `weekdays` at `6AM` if the house is in `sleep` mode:
 
-```yaml
+{{< highlight yaml >}}
 - alias: Ask if Dan is working from home in the morning - Weekday
   id: ask_if_dan_is_working_from_home_in_morning_weekday
   condition:
@@ -65,7 +65,7 @@ I have an automation configured to send me a message asking if I am working from
       data:
         push:
           category: "working_from_home"
-```
+{{< /highlight >}}
 
 The thing to key on here is the `push category` used in the action.  This will be used later...
 
