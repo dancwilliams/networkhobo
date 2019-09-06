@@ -36,7 +36,7 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
   socialShare = true
   showRelatedPosts = true
   wordCount = true
-  useHLJS = true
+#  useHLJS = true
 
 #[[Params.bigimg]]
 #  src = "img/triangle.jpg"
