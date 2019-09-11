@@ -1,0 +1,7 @@
+_id: 118d9da0-d495-11e9-be43-090b893267ad
+_parent: staticman-the-journey-continues
+reply_to: 3ea5e640-d476-11e9-be43-090b893267ad
+name: Dan
+email: 9162d0c5aca33e7e4c8ec6fc3d44f541
+body: "No worries.  The nesting replies really relies upon tracking the reply IDs in your forms and how you structure your output in the Hugo templates.  You can see how I do it in the repo for this site.\r\n\r\n[Comment Form Partial](https://github.com/dancwilliams/networkhobo/blob/master/layouts/partials/comment_form.html)\r\n[Render Comments into Post Partial](https://github.com/dancwilliams/networkhobo/blob/master/layouts/partials/post-comments.html)\r\n\r\nHope this helps!  Let me know if you have any other questions."
+date: '2019-09-11T13:07:12.277Z'
