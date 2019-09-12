@@ -1,0 +1,7 @@
+_id: 3ec4a5b0-d522-11e9-b6b5-3723b0cf6800
+_parent: staticman-the-journey-continues
+reply_to: ''
+name: Wini3D
+email: 556e965349ffb97009a0ddaea249ea95
+body: "Thanks Dan, I'm actually using Jekyll and trying to add nested replies. I can't find a clean version to copy to like using it with jekyll/minima theme.\r\n\r\nBtw, do you have the heroku repo available for forking somewhere or on github? I can't seem to get it running with my own heroku app instance and getting this message when posting comments:\r\n\r\n{\"success\":false,\"rawError\":{\"message\":\"{\\\"message\\\":\\\"Not Found\\\",\\\"documentation_url\\\":\\\"https://developer.github.com/v3/git/refs/#create-a-reference\\\"}\",\"statusCode\":404},\"errorCode\":\"GITHUB_CREATING_PR\"}"
+date: '2019-09-12T05:57:47.191Z'
