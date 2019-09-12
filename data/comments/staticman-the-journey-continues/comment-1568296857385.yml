@@ -1,0 +1,7 @@
+_id: be3ef140-d565-11e9-b6b5-3723b0cf6800
+_parent: staticman-the-journey-continues
+reply_to: 3ec4a5b0-d522-11e9-b6b5-3723b0cf6800
+name: Dan
+email: 9162d0c5aca33e7e4c8ec6fc3d44f541
+body: "I currently do not have it up on Github, just here locally.  I am getting ready to get on a plane but I can try to get something cleaned and pushed up.\r\n\r\nAs far as Jekyll, I have not used it.  But, I know Minimal Mistakes was one of the pioneers in using Staticman with Replie,  [Check Here](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#static-based-comments-via-staticman).  I used a lot of his logic when learning how to do Staticman in Hugo."
+date: '2019-09-12T14:00:57.383Z'
