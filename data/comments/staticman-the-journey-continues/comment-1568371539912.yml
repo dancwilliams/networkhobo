@@ -1,0 +1,7 @@
+_id: a0769740-d613-11e9-8a7b-832307762096
+_parent: staticman-the-journey-continues
+reply_to: 3ec4a5b0-d522-11e9-b6b5-3723b0cf6800
+name: Wini3D
+email: 556e965349ffb97009a0ddaea249ea95
+body: "Thanks. Yes, here is my site code. https://github.com/wini3d/minimaj \r\n\r\nIt seems there is a problem with replying_to not getting sorted out. I have checked some jekyll staticman v2 enabled blogs and I see the _parent is used for the _parent and _id sorting and it works. I then see the new staticman v3 used _parent for the url and not the parent id."
+date: '2019-09-13T10:45:39.907Z'
