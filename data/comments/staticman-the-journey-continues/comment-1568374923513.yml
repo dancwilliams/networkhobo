@@ -1,0 +1,10 @@
+_id: 8144c6a0-d61b-11e9-8a7b-832307762096
+_parent: staticman-the-journey-continues
+reply_to: ''
+name: Wini3D
+email: 556e965349ffb97009a0ddaea249ea95
+body: >-
+  Hey Dan, I finally figured it out! I just stumbled upon this blog by [Chris
+  Risner](https://chrisrisner.com/Switching-Comments-to-StaticMan) and just
+  replaced the sorting to "" instead of blank. Everything is working fine now!
+date: '2019-09-13T11:42:03.511Z'
