@@ -1,0 +1,7 @@
+_id: f4613310-dab4-11e9-8edc-3ba5de9531e5
+_parent: staticman-the-journey-continues
+reply_to: ''
+name: Yudy
+email: b5d623932e8281aac3e8cc3ed2e1a650
+body: "i have manage to deploy staticman to heroku (build notification was success) \r\n\r\n~~~\r\n-----> Build succeeded!\r\n\r\n-----> Discovering process types\r\n\r\n       Procfile declares types -> web\r\n\r\n-----> Compressing...\r\n\r\n       Done: 32.7M\r\n\r\n-----> Launching...\r\n\r\n       Released v4\r\n\r\n       https://xxxx.herokuapp.com/ deployed to Heroku\r\n~~~\r\n\r\nbut when i access the https://xxxx.herokuapp.com \"the application eror\"\r\n\r\nany idea?"
+date: '2019-09-19T08:10:34.415Z'
