@@ -1,0 +1,9 @@
+_id: 9412ada0-dc2a-11e9-8748-1b0bb299a549
+_parent: staticman-the-journey-continues
+reply_to: f4613310-dab4-11e9-8edc-3ba5de9531e5
+name: Yudy
+email: b5d623932e8281aac3e8cc3ed2e1a650
+body: >-
+  Ah I just figure it out... somehow the `$(cat ./key.pem)` not working so i
+  have to put `RSA_PRIVATE_KEY` manualy in heroku dashboard.
+date: '2019-09-21T04:45:04.530Z'
