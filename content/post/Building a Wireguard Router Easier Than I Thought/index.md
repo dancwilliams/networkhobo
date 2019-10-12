@@ -67,6 +67,8 @@ ListenPort = 51820
 PrivateKey = < use privatekey generated in previous step >
 ```
 
+_You will need to adjust the interface in the `iptables` statement to reflect your interface name.  I used `eno1.11` on my server._
+
 In this setup you will not perform any NAT.  You will ahve to ensure routing is setup properly in your environment since this will route your VPN user IPs straight through.  I use `pfSense` and have static routing setup to allow the proper flow of traffic.  It also helps me lock down access.
 
 Now you can run `wg-quick up wg0` to bring up your wireguard interface.  Too easy!
@@ -115,7 +117,7 @@ I also added the piece pointed out in the [Archlinux Wireguard Page](https://wik
 
 Here are the two files I created:
 
-/etc/systemd/system/wireguard_reresolve-dns.timer
+`/etc/systemd/system/wireguard_reresolve-dns.timer`
 ```
 [Unit]
 Description=Periodically reresolve DNS of all WireGuard endpoints
@@ -127,7 +129,7 @@ OnCalendar=*:*:0/30
 WantedBy=timers.target
 ```
 
-/etc/systemd/system/wireguard_reresolve-dns.service
+`/etc/systemd/system/wireguard_reresolve-dns.service`
 ```
 [Unit]
 Description=Reresolve DNS of all WireGuard endpoints
