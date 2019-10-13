@@ -117,6 +117,10 @@ You can also output this to a file if you need to ship it off for some reason:
 
 Once your phone is configured you will be good to go!
 
+To delete a peer do the following (while the `wg0` interface is up):
+
+`wg set wg0 peer <peer_pubkey> remove`
+
 I also added the piece pointed out in the [Archlinux Wireguard Page](https://wiki.archlinux.org/index.php/WireGuard#Endpoint_with_changing_IP) to deal with changing IPs.  Since I am using this on phones and mobile hotspots, this could be an issue.
 
 Here are the two files I created:
