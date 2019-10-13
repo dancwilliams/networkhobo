@@ -18,6 +18,7 @@ First, I have to give some credit to all of the sites that helped me along the w
   * https://securityespresso.org/tutorials/2019/03/22/vpn-server-using-wireguard-on-ubuntu/
   * https://emanuelduss.ch/2018/09/wireguard-vpn-road-warrior-setup/
   * https://restoreprivacy.com/wireguard/
+  * https://www.ckn.io/blog/2017/11/14/wireguard-vpn-typical-setup/
 
 Without these write ups I would have had a much longer journey.
 
@@ -68,6 +69,8 @@ PrivateKey = < use privatekey generated in previous step >
 ```
 
 _You will need to adjust the interface in the `iptables` statement to reflect your interface name.  I used `eno1.11` on my server._
+
+I have been asked about locking down the server some more using `iptables`.  It is definitely possible!  [Here is a good example post](https://www.ckn.io/blog/2017/11/14/wireguard-vpn-typical-setup/).  I have my server behind pfSense which helps me keep it locked down and that is why I used the `iptables` config above.
 
 In this setup you will not perform any NAT.  You will ahve to ensure routing is setup properly in your environment since this will route your VPN user IPs straight through.  I use `pfSense` and have static routing setup to allow the proper flow of traffic.  It also helps me lock down access.
 
