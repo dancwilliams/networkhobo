@@ -19,6 +19,7 @@ First, I have to give some credit to all of the sites that helped me along the w
   * https://emanuelduss.ch/2018/09/wireguard-vpn-road-warrior-setup/
   * https://restoreprivacy.com/wireguard/
   * https://www.ckn.io/blog/2017/11/14/wireguard-vpn-typical-setup/
+  * https://github.com/pirate/wireguard-docs
 
 Without these write ups I would have had a much longer journey.
 
