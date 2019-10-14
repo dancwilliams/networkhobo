@@ -105,7 +105,7 @@ For allowed IPs use whatever you need for access to your network or `0.0.0.0/0` 
 
 You will need to run the following command on the server to add this peer:
 
-`wg set wg0 peer < peer public key > allowed-ips 172.24.1.2/32 persistent-keepalive 0`
+`wg set wg0 peer < peer public key > allowed-ips 172.24.1.2/32`
 
 Now generate a QR code to configure the Wireguard App on your iPhone:
 
