@@ -1,0 +1,11 @@
+_id: 835a43b0-f0f7-11e9-9a28-935b064db5c1
+_parent: reset-toner-counter-on-brother-hl-3170cdw
+reply_to: '1022'
+name: CoastRanger
+email: 09652f8218c1dc9981b6bf6bece3ce89
+body: >-
+  You are correct.  If there are jobs in the print queue, the toner reset steps
+  don't work.  The simple way to clear the queue is like you did, turn off and
+  back on.  Note if you're spooling from the computer, or a network device, it
+  may help to unplug the USB or LAN cable while it's powered off.
+date: '2019-10-17T16:02:26.524Z'
