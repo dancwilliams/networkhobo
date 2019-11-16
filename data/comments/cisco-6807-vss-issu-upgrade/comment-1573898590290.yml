@@ -1,0 +1,10 @@
+_id: 4b421e30-0858-11ea-bd0a-498bd2930bf1
+_parent: cisco-6807-vss-issu-upgrade
+reply_to: ''
+name: Umair
+email: 0289a2a275051a8de121e030140cf799
+body: >-
+  Just upgrade with legacy way... and it must be on the same train for eFSU to
+  carry forward... see compatibility matrix
+  [http://www.cisco.com/en/US/docs/switches/lan/catalyst6500/ios/SX_SY_EFSU_Compatibility_Matrix.xlsx]
+date: '2019-11-16T10:03:10.283Z'
