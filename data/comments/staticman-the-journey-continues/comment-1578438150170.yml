@@ -1,0 +1,7 @@
+_id: c7d28620-31a1-11ea-aec1-d9b061d77595
+_parent: staticman-the-journey-continues
+reply_to: 533671c0-302d-11ea-afab-77b3fa04bcc8
+name: Dan
+email: 9162d0c5aca33e7e4c8ec6fc3d44f541
+body: "Ah...gotcha...\r\n\r\nYou would just have to figure out how to do the presentation using the templating engine that Jekyll uses (which I believe is Liquid).\r\n\r\nI know the [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) theme for Jekyll uses Staticman so his code is a good place to look.  I actually used the logic I found there to work out some of the nested commenting logic for the Hugo implementation.\r\n\r\nDan"
+date: '2020-01-07T23:02:30.168Z'
