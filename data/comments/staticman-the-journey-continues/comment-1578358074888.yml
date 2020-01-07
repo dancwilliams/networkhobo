@@ -1,0 +1,7 @@
+_id: 57291430-30e7-11ea-991d-73258a3335f9
+_parent: staticman-the-journey-continues
+reply_to: 533671c0-302d-11ea-afab-77b3fa04bcc8
+name: Dan
+email: 9162d0c5aca33e7e4c8ec6fc3d44f541
+body: "Great question!\r\n\r\nI have not tried it, but I would start [here](https://discourse.gohugo.io/t/sorting-blog-posts-in-descending-order/1427/3).  Looking at line `24` in the `post-comments.html` file. File details [here](https://workingcopy.app/git/#path=layouts/partials/post-comments.html&repo=https://dancwilliams@github.com/dancwilliams/networkhobo). \r\n\r\nHope my markdown works.  I am mobile at the moment. \r\n\r\nLet me know!"
+date: '2020-01-07T00:47:54.880Z'
