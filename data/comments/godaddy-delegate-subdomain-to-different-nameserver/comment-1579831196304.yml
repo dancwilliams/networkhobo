@@ -1,0 +1,7 @@
+_id: 3800ec90-3e4d-11ea-8066-955b073bf925
+_parent: godaddy-delegate-subdomain-to-different-nameserver
+reply_to: ''
+name: Bryan
+email: e9743faa7a8bf9b7549116614e01d5ae
+body: "It works as of 1/23/2020\r\n\r\nYou only put the subdomain in the host box, bot the full domain.\r\n\r\nSo test.testing.com, in host box only put test.\r\n\r\nThanks"
+date: '2020-01-24T01:59:56.296Z'
