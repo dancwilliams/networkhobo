@@ -1,0 +1,9 @@
+_id: fcea9f70-5864-11ea-8d29-a7794300d332
+_parent: godaddy-delegate-subdomain-to-different-nameserver
+reply_to: 3800ec90-3e4d-11ea-8066-955b073bf925
+name: Shah
+email: ''
+body: >-
+  It works as of Feb 2020. I just had to use the subdomain part, excluding the
+  domain part as Bryan mentioned.
+date: '2020-02-26T06:55:35.351Z'
