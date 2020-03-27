@@ -1,0 +1,7 @@
+_id: 0abf2f00-7069-11ea-a764-6d4b436bcf57
+_parent: godaddy-delegate-subdomain-to-different-nameserver
+reply_to: ''
+name: Charles
+email: 6999be388181790c48bf313a5cc6b08a
+body: "This does not work actual DNS delegation of nameserver authority. \r\n\r\nGoDaddy *does* let you create the records as describe above, however if you dig -t NS for the subdomain, you won't get a response and consequently - your sub-domain records won't get a response."
+date: '2020-03-27T20:25:04.426Z'
