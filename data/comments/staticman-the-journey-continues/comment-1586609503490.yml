@@ -1,0 +1,7 @@
+_id: 31e4a980-7bf3-11ea-b03d-5be00a3e895f
+_parent: staticman-the-journey-continues
+reply_to: 623310b0-7bf1-11ea-b03d-5be00a3e895f
+name: Dan
+email: 65d26dd351e6902fa5ca05019085394a
+body: "Nam,\r\n\r\nThanks for the heads up. I have not looked at the Mailgun plans in years. Since the code is open I am sure the project would be happy to accept a pull request integrating a new mail system."
+date: '2020-04-11T12:51:43.489Z'
