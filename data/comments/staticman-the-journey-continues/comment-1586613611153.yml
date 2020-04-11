@@ -1,0 +1,7 @@
+_id: c229dd40-7bfc-11ea-b03d-5be00a3e895f
+_parent: staticman-the-journey-continues
+reply_to: 623310b0-7bf1-11ea-b03d-5be00a3e895f
+name: Nam Ngo
+email: 305dcc613087575771353a3b16054a74
+body: "Mailgun plan Flex is 0.8$/1000 emails. But when website many comments, it's is big problem.\r\n\r\nI have a problem:\r\n\r\nI config staticmain with API https://github.com/apps/staticman-net\r\n\r\nEncrypt Eecaptcha secret in  https://dev.staticman.net/v3/encrypt/KEY\r\n\r\nBut, when i test new comment in post, it can't send new pull request. Comment always error"
+date: '2020-04-11T14:00:11.152Z'
